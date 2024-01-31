@@ -1,0 +1,15 @@
+FsRecords.DIRECTORY_CHILDREN
+__index_stamps__
+template_language
+
+sql_dialect
+GenericSQL
+AUTO_DETECTION_CACHE_ATTRIBUTE
+IdIndex.index.version
+stubIndexStamp
+Stubs.index.version
+stubIndex.cumulativeBinaryBuilder
+TodoIndex.index.version
+HashFragmentIndex.index.version
+FrameworkDetectionIndex.index.version
+fileIncludes.index.version

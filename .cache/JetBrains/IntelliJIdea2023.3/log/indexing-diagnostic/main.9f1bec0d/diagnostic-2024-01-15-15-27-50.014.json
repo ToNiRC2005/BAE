@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "233.13135.103",
+    "buildDate" : "2023-12-20T05:05:00Z[UTC]",
+    "productCode" : "IU",
+    "generated" : "2024-01-15T15:27:50.014955548Z",
+    "os" : "Linux 6.5.0-14-generic",
+    "runtime" : "JetBrains s.r.o. 17.0.9 17.0.9+7-b1087.9"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 11,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "Main",
+    "times" : {
+      "scanningReason" : "changes in: \"Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 2385,
+      "concurrentHandlingWallTimeWithoutPauses" : 5258439,
+      "concurrentHandlingWallTimeWithPauses" : 5258439,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 3659260,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 86532,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 3493329,
+      "delayedPushPropertiesStageTime" : 5109,
+      "indexExtensionsTime" : 182082,
+      "dumbModeStart" : "2024-01-15T15:27:49.598251222Z",
+      "dumbWallTimeWithPauses" : 6012408,
+      "dumbWallTimeWithoutPauses" : 5819387,
+      "updatingStart" : "2024-01-15T15:27:49.597813294Z",
+      "updatingEnd" : "2024-01-15T15:27:49.60426363Z",
+      "totalWallTimeWithPauses" : 6464032,
+      "wallTimeOnPause" : 193021,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 6271011
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 8,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 8
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)",
+      "numberOfScannedFiles" : 8,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 8,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 3297954,
+      "totalOneThreadTimeWithPauses" : 3659260,
+      "iterationAndScannersApplicationTime" : 86532,
+      "filesCheckTime" : 3493329,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 581035,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 182082,
+      "roots" : [ ]
+    } ]
+  }
+}

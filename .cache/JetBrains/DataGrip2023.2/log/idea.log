@@ -1,0 +1,821 @@
+2023-10-30 19:28:56,922 [      4]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2023-10-30 19:28:56,955 [     37]   INFO - #c.i.p.d.t.i.TelemetryManagerImpl - Initializing telemetry tracer com.intellij.platform.diagnostic.telemetry.impl.TelemetryManagerImpl
+2023-10-30 19:28:56,972 [     54]   INFO - #c.i.i.AppStarter - JNA library (64-bit) loaded in 29 ms
+2023-10-30 19:28:56,988 [     70]   INFO - #c.i.i.AppStarter - IDE: DataGrip (build #DB-232.10203.8, 24 Oct 2023 14:31)
+2023-10-30 19:28:56,989 [     71]   INFO - #c.i.i.AppStarter - OS: Linux (6.2.0-35-generic)
+2023-10-30 19:28:56,990 [     72]   INFO - #c.i.i.AppStarter - JRE: 17.0.8.1+7-b1000.32, amd64 (JetBrains s.r.o.)
+2023-10-30 19:28:56,990 [     72]   INFO - #c.i.i.AppStarter - JVM: 17.0.8.1+7-b1000.32 (OpenJDK 64-Bit Server VM)
+2023-10-30 19:28:56,994 [     76]   INFO - #c.i.i.AppStarter - PID: 12229
+2023-10-30 19:28:56,995 [     77]   INFO - #c.i.i.AppStarter - desktop: ubuntu:GNOME
+2023-10-30 19:28:57,003 [     85]   INFO - #c.i.p.d.t.CsvMetricsExporter - open-telemetry-metrics-plotter.html is not found in classpath
+2023-10-30 19:28:57,009 [     91]   INFO - #c.i.i.AppStarter - JVM options: [-XX:ErrorFile=/home/tarde/java_error_in_datagrip_%p.log, -XX:HeapDumpPath=/home/tarde/java_error_in_datagrip_.hprof, -Xms128m, -Xmx2048m, -XX:ReservedCodeCacheSize=512m, -XX:+UseG1GC, -XX:SoftRefLRUPolicyMSPerMB=50, -XX:CICompilerCount=2, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dsun.tools.attach.tmp.only=true, -Dawt.lock.fair=true, -Djb.vmOptionsFile=/snap/datagrip/180/bin/datagrip64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=DataGrip2023.2, -Djna.boot.library.path=/snap/datagrip/180/lib/jna/amd64, -Dpty4j.preferred.native.folder=/snap/datagrip/180/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Didea.platform.prefix=DataGrip, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2023-10-30 19:28:57,010 [     92]   INFO - #c.i.i.AppStarter - args: 
+2023-10-30 19:28:57,010 [     92]   INFO - #c.i.i.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2023-10-30 19:28:57,011 [     93]   INFO - #c.i.i.AppStarter - boot library path: /snap/datagrip/180/jbr/lib
+2023-10-30 19:28:57,021 [    103]   INFO - #c.i.i.AppStarter - locale=es_ES JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/home/tarde/.config/JetBrains/DataGrip2023.2
+    idea.system.path=/home/tarde/.cache/JetBrains/DataGrip2023.2
+    idea.plugins.path=/home/tarde/.local/share/JetBrains/DataGrip2023.2 -> ?
+    idea.log.path=/home/tarde/.cache/JetBrains/DataGrip2023.2/log
+2023-10-30 19:28:57,026 [    108]   INFO - #c.i.i.AppStarter - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@1ef0f78[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@634510e6
+2023-10-30 19:28:57,642 [    724]   INFO - #c.i.i.AppStarter - Importing configs to /home/tarde/.config/JetBrains/DataGrip2023.2
+2023-10-30 19:28:57,643 [    725]   INFO - #c.i.i.AppStarter - Custom migration option: null
+2023-10-30 19:29:03,964 [   7046]   INFO - #c.i.i.AppStarter - No configs imported, starting with clean configs at /home/tarde/.config/JetBrains/DataGrip2023.2
+2023-10-30 19:29:03,991 [   7073]   INFO - #c.i.i.p.PluginManager - Using broken plugins file from IDE distribution
+2023-10-30 19:29:04,110 [   7192]   WARN - #c.i.i.p.PluginManager - <resource-bundle>messages.DataGripBundle</resource-bundle> tag is found in an xml descriptor included into the platform part of the IDE but the platform part uses predefined bundles (e.g. ActionsBundle for actions) anyway; this tag must be replaced by a corresponding attribute in some inner tags (e.g. by 'resource-bundle' attribute in 'actions' tag)
+2023-10-30 19:29:04,153 [   7235]   INFO - #c.i.i.p.PluginManager - Module intellij.platform.images.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.searchEverywhereMl.ranking.yaml is not enabled because dependency org.jetbrains.plugins.yaml is not available
+Module intellij.searchEverywhereMl.typos is not enabled because dependency tanvd.grazi is not available
+Module intellij.diagram.properties is not enabled because dependency com.intellij.properties is not available
+Module intellij.diagram.java is not enabled because dependency com.intellij.java is not available
+Module intellij.vcs.git/newUiOnboarding is not enabled because dependency intellij.platform.ide.newUiOnboarding is not available
+2023-10-30 19:29:04,169 [   7251]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Git (232.10203.8), Machine Learning Code Completion (232.10203.8), Images (232.10203.8), IntelliLang (232.10203.8), IDE Settings Sync (232.10203.8), Diagrams (232.10203.8), WarmNeon Color Scheme (232.10203.8), Configuration Script (232.10203.8), XPathView + XSLT (232.10203.8), Charts Support (232.10203.8), Async Profiler for IDE Performance Testing (232.10203.8), com.intellij.dev (232.10203.8), Data Editor Support Core (232.10203.8), Settings Sync (232.10203.8), IDEA CORE (232.10203.8), Machine Learning in Search Everywhere (232.10203.8), VibrantInk Color Scheme (232.10203.8), Data Editor Support (232.10203.8), DataGrip Solarized Color Scheme (232.10203.8), Database Tools and SQL (232.10203.8), DataGrip Customization (232.10203.8), TextMate Bundles (232.10203.8), Remote Development Server (232.10203.8), DataGrip Help (232.10203.8), Performance Testing (232.10203.8)
+2023-10-30 19:29:04,258 [   7340]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2023-10-30 19:29:04,296 [   7378]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2023-10-30 19:29:04,385 [   7467]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2023-10-30 19:29:04,386 [   7468]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE:10485760
+2023-10-30 19:29:04,386 [   7468]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular
+2023-10-30 19:29:04,386 [   7468]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2023-10-30 19:29:04,493 [   7575]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses strict names enumerator
+2023-10-30 19:29:04,507 [   7589]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses new (streamlined) attributes storage
+2023-10-30 19:29:04,583 [   7665]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-30 19:29:04,592 [   7674]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-30 19:29:04,593 [   7675]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "NetBeans 6.5" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-30 19:29:04,593 [   7675]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-30 19:29:04,615 [   7697]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2023-10-30 19:29:04,642 [   7724]   INFO - #c.i.o.v.n.p.FSRecords - using OVER_MMAPPED_FILE storage for VFS records
+2023-10-30 19:29:04,665 [   7747]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS: impl (expected) version=576319, 0 file records, 0 content blobs
+2023-10-30 19:29:04,695 [   7777]   INFO - #c.i.o.v.n.p.PersistentFSConnector - 2 ms to self-checks, load free records and inverted name index
+2023-10-30 19:29:04,743 [   7825]   INFO - #c.i.h.u.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding...
+2023-10-30 19:29:04,744 [   7826]   INFO - #c.i.h.u.LocalHistoryLog - FS has been rebuild, rebuilding local history...
+2023-10-30 19:29:04,747 [   7829]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2023-10-30 19:29:04,754 [   7836]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /snap/datagrip/180/bin/fsnotifier
+2023-10-30 19:29:04,770 [   7852]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2023-10-30 19:29:04,780 [   7862]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Light - old: Light, new Light
+2023-10-30 19:29:04,823 [   7905]   INFO - #c.i.o.a.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, new.project.wizard, editor.reader.mode, new.large.text.file.viewer
+2023-10-30 19:29:04,828 [   7910]   INFO - #c.i.o.w.i.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop
+2023-10-30 19:29:04,832 [   7914]   INFO - #c.i.o.w.i.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar'
+2023-10-30 19:29:04,873 [   7955]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check disabled
+2023-10-30 19:29:04,876 [   7958]   INFO - #c.i.d.i.DataGripProjectMigration - no projects in config folder
+2023-10-30 19:29:04,886 [   7968]   INFO - #c.i.c.m.CloudConfigToSettingsSyncMigration - No data from cloudConfig in jba_config folder => no migration needed
+2023-10-30 19:29:04,891 [   7973]   INFO - #c.i.s.m.SettingsRepositoryToSettingsSyncMigration - No data from settingsRepository in 'settingsRepository' folder => no migration needed
+2023-10-30 19:29:04,916 [   7998]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2023-10-30 19:29:04,981 [   8063]   INFO - #c.i.i.b.ApplicationLoader - Input method disabler: canDisableInputMethod spent 19 ms, found keyboard layouts: [(es, xkb), ], result==false
+2023-10-30 19:29:05,034 [   8116]   INFO - #c.i.i.a.CreateLauncherScriptAction$ObsoleteScriptLookupTask - Input length = 1
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.intellij.ide.actions.CreateLauncherScriptAction$ObsoleteScriptLookupTask.lambda$appStarted$1(CreateLauncherScriptAction.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-30 19:29:05,140 [   8222]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:FrameworkDetectionIndex(v = 65536),TodoIndex(v = 13),Stubs(v = 46),HashFragmentIndex(v = 19111503),XmlNamespaces(v = 8),filetypes(v = 4096),SchemaTypeInheritance(v = 2),XmlTagNames(v = 1),html5.custom.attributes.index(v = 1),IdIndex(v = 22),fileIncludes(v = 6),json.file.root.values(v = 5),DomFileIndex(v = 0),sql.types.count.index(v = 0),XsltSymbolIndex(v = 0),FilenameIndex(v = 258),Trigram.Index(v = 4),RelaxSymbolIndex(v = 0),sql.routine.index(v = 1)
+2023-10-30 19:29:05,142 [   8224]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2023-10-30 19:29:05,150 [   8232]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 258 ms. Initialized indexes: [FilenameIndex, filetypes, TodoIndex, html5.custom.attributes.index, RelaxSymbolIndex, Trigram.Index, XmlTagNames, DomFileIndex, XmlNamespaces, json.file.root.values, sql.types.count.index, SchemaTypeInheritance, XsltSymbolIndex, fileIncludes, sql.routine.index, FrameworkDetectionIndex, HashFragmentIndex, IdIndex, Stubs].
+2023-10-30 19:29:05,181 [   8263]   INFO - #c.i.p.s.StubIndexImpl - Following stub indices will be built:sql.names(v = 21),dom.elementClass(v = 0),sql.table.shortName(v = 3),sql.column.name(v = 3),dom.namespaceKey(v = 1),redis.dml.shortName(v = 3)
+2023-10-30 19:29:05,183 [   8265]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 31 ms. Initialized stub indexes: {sql.table.shortName, sql.column.name, dom.elementClass, dom.namespaceKey, redis.dml.shortName, sql.names}.
+2023-10-30 19:29:05,667 [   8749]   INFO - #c.i.i.p.m.MarketplaceRequests - Error reading Marketplace file: com.fasterxml.jackson.databind.JsonMappingException: Unexpected end-of-input in VALUE_STRING
+ at [Source: (sun.nio.ch.ChannelInputStream); line: 1, column: 312065] (through reference chain: java.util.ArrayList[2459]->com.intellij.ide.plugins.marketplace.MarketplaceBrokenPlugin["id"]) (file=/home/tarde/.cache/JetBrains/DataGrip2023.2/plugins/brokenPlugins.json URL=https://plugins.jetbrains.com/files/brokenPlugins.json)
+2023-10-30 19:29:05,668 [   8750]   INFO - #c.i.i.p.m.MarketplaceRequests - Can not get broken plugins file from Marketplace: Unexpected end-of-input in VALUE_STRING
+ at [Source: (sun.nio.ch.ChannelInputStream); line: 1, column: 312065] (through reference chain: java.util.ArrayList[2459]->com.intellij.ide.plugins.marketplace.MarketplaceBrokenPlugin["id"])
+2023-10-30 19:29:09,889 [  12971]   INFO - #c.i.i.p.n.PluginsGroupComponentWithProgress - Marketplace tab: loading stopped
+2023-10-30 19:29:09,896 [  12978]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Suggested' group load started
+2023-10-30 19:29:10,069 [  13151]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Suggested' group load finished
+2023-10-30 19:29:10,070 [  13152]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Featured' group load started
+2023-10-30 19:29:10,282 [  13364]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Featured' group load finished
+2023-10-30 19:29:10,282 [  13364]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'New and Updated' group load started
+2023-10-30 19:29:10,477 [  13559]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'New and Updated' group load finished
+2023-10-30 19:29:10,477 [  13559]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Top Downloads' group load started
+2023-10-30 19:29:10,671 [  13753]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Top Downloads' group load finished
+2023-10-30 19:29:10,672 [  13754]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Top Rated' group load started
+2023-10-30 19:29:10,867 [  13949]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Top Rated' group load finished
+2023-10-30 19:29:10,869 [  13951]   INFO - #c.i.i.p.n.PluginsGroupComponentWithProgress - Marketplace tab: loading stopped
+2023-10-30 19:29:11,445 [  14527]   INFO - #c.i.u.t.DateFormatUtil - cannot load system formats (JNA=true), resorting to JRE for es_ES
+2023-10-30 19:29:11,547 [  14629]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2023-10-30 19:29:11,570 [  14652]   WARN - com.github.weisj.jsvg.parser.css.impl.SimpleCssParser - Expected 'CURLY_OPEN' but got 'Token{type=EOF, data='null'}'
+2023-10-30 19:29:21,798 [  24880]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities from files
+2023-10-30 19:29:21,810 [  24892]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-30 19:29:21,932 [  25014]   INFO - #c.i.c.ComponentStoreImpl - Saving appPyCharmUIInfoState took 39 ms
+2023-10-30 19:29:43,786 [  46868]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-30 19:43:26,632 [ 869714]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-30 19:43:26,705 [ 869787]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2023-10-30 19:43:26,725 [ 869807]   INFO - #c.i.c.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 21 ms, DiffSettings took 15 ms, FeatureUsageStatistics took 18 ms
+2023-10-30 19:43:26,812 [ 869894]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2023-10-30 19:43:26,861 [ 869943]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2023-10-30 19:43:26,865 [ 869947]   INFO - #o.j.i.BuiltInServer - web server stopped
+2023-10-30 19:43:26,878 [ 869960]   INFO - #c.i.o.f.i.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms
+2023-10-30 19:43:26,879 [ 869961]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2023-10-30 19:43:26,893 [ 869975]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2023-10-30 19:43:26,893 [ 869975]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-30 19:43:26,894 [ 869976]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-30 19:43:26,895 [ 869977]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 15ms.
+2023-10-30 19:43:26,899 [ 869981]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2023-10-30 19:43:26,901 [ 869983]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 2ms.
+2023-10-30 19:43:26,930 [ 870012]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
+2023-10-30 19:52:24,859 [      4]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2023-10-30 19:52:24,878 [     23]   INFO - #c.i.p.d.t.i.TelemetryManagerImpl - Initializing telemetry tracer com.intellij.platform.diagnostic.telemetry.impl.TelemetryManagerImpl
+2023-10-30 19:52:24,897 [     42]   INFO - #c.i.i.AppStarter - JNA library (64-bit) loaded in 8 ms
+2023-10-30 19:52:24,904 [     49]   INFO - #c.i.i.AppStarter - IDE: DataGrip (build #DB-232.10203.8, 24 Oct 2023 14:31)
+2023-10-30 19:52:24,905 [     50]   INFO - #c.i.i.AppStarter - OS: Linux (6.2.0-35-generic)
+2023-10-30 19:52:24,906 [     51]   INFO - #c.i.i.AppStarter - JRE: 17.0.8.1+7-b1000.32, amd64 (JetBrains s.r.o.)
+2023-10-30 19:52:24,906 [     51]   INFO - #c.i.i.AppStarter - JVM: 17.0.8.1+7-b1000.32 (OpenJDK 64-Bit Server VM)
+2023-10-30 19:52:24,907 [     52]   INFO - #c.i.i.AppStarter - PID: 16413
+2023-10-30 19:52:24,907 [     52]   INFO - #c.i.i.AppStarter - desktop: ubuntu:GNOME
+2023-10-30 19:52:24,909 [     54]   INFO - #c.i.p.d.t.CsvMetricsExporter - open-telemetry-metrics-plotter.html is not found in classpath
+2023-10-30 19:52:24,914 [     59]   INFO - #c.i.i.AppStarter - JVM options: [-XX:ErrorFile=/home/tarde/java_error_in_datagrip_%p.log, -XX:HeapDumpPath=/home/tarde/java_error_in_datagrip_.hprof, -Xms128m, -Xmx2048m, -XX:ReservedCodeCacheSize=512m, -XX:+UseG1GC, -XX:SoftRefLRUPolicyMSPerMB=50, -XX:CICompilerCount=2, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dsun.tools.attach.tmp.only=true, -Dawt.lock.fair=true, -Djb.vmOptionsFile=/snap/datagrip/180/bin/datagrip64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=DataGrip2023.2, -Djna.boot.library.path=/snap/datagrip/180/lib/jna/amd64, -Dpty4j.preferred.native.folder=/snap/datagrip/180/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Didea.platform.prefix=DataGrip, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2023-10-30 19:52:24,915 [     60]   INFO - #c.i.i.AppStarter - args: 
+2023-10-30 19:52:24,915 [     60]   INFO - #c.i.i.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2023-10-30 19:52:24,915 [     60]   INFO - #c.i.i.AppStarter - boot library path: /snap/datagrip/180/jbr/lib
+2023-10-30 19:52:24,923 [     68]   INFO - #c.i.i.AppStarter - locale=es_ES JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/home/tarde/.config/JetBrains/DataGrip2023.2
+    idea.system.path=/home/tarde/.cache/JetBrains/DataGrip2023.2
+    idea.plugins.path=/home/tarde/.local/share/JetBrains/DataGrip2023.2 -> ?
+    idea.log.path=/home/tarde/.cache/JetBrains/DataGrip2023.2/log
+2023-10-30 19:52:24,927 [     72]   INFO - #c.i.i.AppStarter - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@9da26d3[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@64dce885
+2023-10-30 19:52:24,930 [     75]   WARN - #c.i.i.p.PluginManager - <resource-bundle>messages.DataGripBundle</resource-bundle> tag is found in an xml descriptor included into the platform part of the IDE but the platform part uses predefined bundles (e.g. ActionsBundle for actions) anyway; this tag must be replaced by a corresponding attribute in some inner tags (e.g. by 'resource-bundle' attribute in 'actions' tag)
+2023-10-30 19:52:24,947 [     92]   INFO - #c.i.i.p.PluginManager - Module intellij.platform.images.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.searchEverywhereMl.ranking.yaml is not enabled because dependency org.jetbrains.plugins.yaml is not available
+Module intellij.searchEverywhereMl.typos is not enabled because dependency tanvd.grazi is not available
+Module intellij.diagram.properties is not enabled because dependency com.intellij.properties is not available
+Module intellij.diagram.java is not enabled because dependency com.intellij.java is not available
+Module intellij.vcs.git/newUiOnboarding is not enabled because dependency intellij.platform.ide.newUiOnboarding is not available
+2023-10-30 19:52:24,954 [     99]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: IDE Settings Sync (232.10203.8), IntelliLang (232.10203.8), Images (232.10203.8), Machine Learning Code Completion (232.10203.8), Git (232.10203.8), Performance Testing (232.10203.8), DataGrip Help (232.10203.8), Remote Development Server (232.10203.8), TextMate Bundles (232.10203.8), DataGrip Customization (232.10203.8), Database Tools and SQL (232.10203.8), DataGrip Solarized Color Scheme (232.10203.8), Data Editor Support (232.10203.8), VibrantInk Color Scheme (232.10203.8), Machine Learning in Search Everywhere (232.10203.8), IDEA CORE (232.10203.8), Settings Sync (232.10203.8), Data Editor Support Core (232.10203.8), com.intellij.dev (232.10203.8), Async Profiler for IDE Performance Testing (232.10203.8), Charts Support (232.10203.8), XPathView + XSLT (232.10203.8), Configuration Script (232.10203.8), WarmNeon Color Scheme (232.10203.8), Diagrams (232.10203.8)
+2023-10-30 19:52:25,016 [    161]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2023-10-30 19:52:25,051 [    196]   INFO - #c.i.o.u.r.RegistryManager - Registry values changed by user: ide.experimental.ui = true, idea.plugins.compatible.build = 
+2023-10-30 19:52:25,058 [    203]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2023-10-30 19:52:25,059 [    204]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2023-10-30 19:52:25,060 [    205]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE:10485760
+2023-10-30 19:52:25,061 [    206]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular
+2023-10-30 19:52:25,061 [    206]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2023-10-30 19:52:25,086 [    231]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses strict names enumerator
+2023-10-30 19:52:25,109 [    254]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses new (streamlined) attributes storage
+2023-10-30 19:52:25,162 [    307]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2023-10-30 19:52:25,194 [    339]   INFO - #c.i.o.v.n.p.FSRecords - using OVER_MMAPPED_FILE storage for VFS records
+2023-10-30 19:52:25,198 [    343]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS: impl (expected) version=576319, 3 file records, 0 content blobs
+2023-10-30 19:52:25,214 [    359]   INFO - #c.i.o.v.n.p.PersistentFSConnector - 15 ms to self-checks, load free records and inverted name index
+2023-10-30 19:52:25,233 [    378]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2023-10-30 19:52:25,280 [    425]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /snap/datagrip/180/bin/fsnotifier
+2023-10-30 19:52:25,294 [    439]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2023-10-30 19:52:25,418 [    563]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-30 19:52:25,428 [    573]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-30 19:52:25,428 [    573]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "NetBeans 6.5" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-30 19:52:25,429 [    574]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-30 19:52:25,437 [    582]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check disabled
+2023-10-30 19:52:25,438 [    583]   INFO - #c.i.d.i.DataGripProjectMigration - no projects in config folder
+2023-10-30 19:52:25,464 [    609]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2023-10-30 19:52:25,532 [    677]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Light - old: Light, new Light
+2023-10-30 19:52:25,536 [    681]   INFO - #c.i.i.a.CreateLauncherScriptAction$ObsoleteScriptLookupTask - Input length = 1
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.intellij.ide.actions.CreateLauncherScriptAction$ObsoleteScriptLookupTask.lambda$appStarted$1(CreateLauncherScriptAction.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-30 19:52:25,610 [    755]   INFO - #c.i.o.a.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, new.project.wizard, editor.reader.mode, new.large.text.file.viewer
+2023-10-30 19:52:25,614 [    759]   INFO - #c.i.o.w.i.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop
+2023-10-30 19:52:25,616 [    761]   INFO - #c.i.o.w.i.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar'
+2023-10-30 19:52:26,321 [   1466]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2023-10-30 19:52:26,329 [   1474]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 884 ms. Initialized indexes: [FilenameIndex, filetypes, html5.custom.attributes.index, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, Trigram.Index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, sql.types.count.index, sql.routine.index, IdIndex, fileIncludes, FrameworkDetectionIndex, TodoIndex, HashFragmentIndex, Stubs].
+2023-10-30 19:52:26,337 [   1482]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 6 ms. Initialized stub indexes: {redis.dml.shortName, dom.namespaceKey, sql.table.shortName, sql.column.name, dom.elementClass, sql.names}.
+2023-10-30 19:53:27,141 [  62286]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities from files
+2023-10-30 19:53:27,147 [  62292]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-30 19:53:38,319 [  73464]   INFO - #c.i.w.i.i.l.m.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[DefaultDispatcher-worker-9,5,main]
+2023-10-30 19:53:38,339 [  73484]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2023-10-30 19:53:38,389 [  73534]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-30 19:53:38,391 [  73536]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 1 in 24 ms: Apply JPS storage (iml files)
+2023-10-30 19:53:38,391 [  73536]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-30 19:53:38,455 [  73600]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2023-10-30 19:53:38,563 [  73708]   INFO - #c.i.w.i.i.l.m.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[DefaultDispatcher-worker-5,5,main]
+2023-10-30 19:53:38,564 [  73709]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2023-10-30 19:53:38,600 [  73745]   INFO - STDOUT - 
+2023-10-30 19:53:38,754 [  73899]   INFO - #c.i.o.w.i.GlobalMenuLinux - created instance of GlobalMenuLinux for frame: com.intellij.openapi.wm.impl.IdeFrameImpl[frame0,295,53,1400x1000,invalid,layout=java.awt.BorderLayout,title=,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=com.intellij.openapi.wm.impl.IdeRootPane[,0,0,1400x1000,invalid,layout=com.intellij.openapi.wm.impl.IdeRootPane$MyRootLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource@4349124e,flags=449,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2023-10-30 19:53:38,793 [  73938]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-30 19:53:38,794 [  73939]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 1 in 1 ms: Apply JPS storage (iml files)
+2023-10-30 19:53:38,794 [  73939]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-30 19:53:38,917 [  74062]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2023-10-30 19:53:38,976 [  74121]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-30 19:53:38,976 [  74121]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 12 ms: Module model commit
+2023-10-30 19:53:38,999 [  74144]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-30 19:53:39,000 [  74145]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2023-10-30 19:53:39,004 [  74149]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 3 in 12 ms: Root model commit
+2023-10-30 19:53:39,023 [  74168]   INFO - PerformancePlugin - Performance Plugin is in silent mode
+2023-10-30 19:53:39,091 [  74236]   INFO - #c.i.o.w.i.ToolWindowManagerImpl - Ignore setShowStripeButton(id=Database Changes, value=false) - not applicable for a new UI
+2023-10-30 19:53:39,392 [  74537]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 1 millis (read time: 1)
+2023-10-30 19:53:39,405 [  74550]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2023-10-30 19:53:39,409 [  74554]   INFO - #c.i.i.b.BookmarksManager - no state loaded for new bookmarks
+2023-10-30 19:53:39,412 [  74557]   INFO - #c.i.i.b.BookmarkManager - no state loaded for old bookmarks
+2023-10-30 19:53:39,416 [  74561]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 98ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish
+2023-10-30 19:53:39,417 [  74562]   INFO - #c.i.i.f.FavoritesManager - no state loaded for old favorites
+2023-10-30 19:53:39,591 [  74736]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@5ccf9ff2
+2023-10-30 19:53:39,597 [  74742]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2023-10-30 19:53:39,605 [  74750]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@23e8b3b1
+2023-10-30 19:53:39,608 [  74753]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@23e8b3b1
+2023-10-30 19:53:39,608 [  74753]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@22db38aa
+2023-10-30 19:53:39,609 [  74754]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@22db38aa
+2023-10-30 19:53:39,609 [  74754]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@45600c30
+2023-10-30 19:53:39,612 [  74757]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@45600c30
+2023-10-30 19:53:39,613 [  74758]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@5ccf9ff2
+2023-10-30 19:53:39,739 [  74884]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[toni]
+2023-10-30 19:53:39,785 [  74930]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of toni. Reason: On project open
+2023-10-30 19:53:39,787 [  74932]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for toni took 1ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-30 19:53:39,877 [  75022]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of toni uses 11 scanning threads
+2023-10-30 19:53:39,899 [  75044]   INFO - #c.i.d.u.SqlDialects - SQL dialects initialized in 6 ms
+2023-10-30 19:53:39,954 [  75099]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@62ff1f01
+2023-10-30 19:53:39,955 [  75100]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2023-10-30 19:53:40,245 [  75390]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for toni. Number of scanned files: 213; Number of files for indexing: 212 took 458ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-30 19:53:40,246 [  75391]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: marking roots for initial VFS refresh
+2023-10-30 19:53:40,247 [  75392]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: starting initial VFS refresh
+2023-10-30 19:53:40,252 [  75397]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: initial VFS refresh finished 3 ms
+2023-10-30 19:53:40,253 [  75398]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[toni]
+2023-10-30 19:53:40,254 [  75399]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@62ff1f01
+2023-10-30 19:53:40,255 [  75400]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[toni, 1 iterators, reason: On project open]
+2023-10-30 19:53:40,255 [  75400]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2023-10-30 19:53:40,261 [  75406]   INFO - #c.i.u.i.UnindexedFilesIndexer - Use 11 indexing threads for indexing of toni
+2023-10-30 19:53:40,649 [  75794]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of toni : 0 to update, calculated in 0ms
+2023-10-30 19:53:40,650 [  75795]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for toni. Unindexed files update took 392ms; general responsiveness: 1/1 sluggish; EDT responsiveness: ok
+2023-10-30 19:53:40,653 [  75798]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[toni, 1 iterators, reason: On project open]
+2023-10-30 19:53:44,426 [  79571]   INFO - #c.i.d.MemorySizeConfigurator - Physical memory 15268M, minimum memory size 128M, -Xmx adjusted from 2048M to 2048M
+2023-10-30 19:53:46,743 [  81888]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-30 19:53:48,604 [  83749]   INFO - #c.i.o.a.i.PopupMenuPreloader - 9248 ms since showing to preload popup menu 'Project View Popup Menu' at 'ProjectViewPopup(preload-bgt)' in 158 ms
+2023-10-30 19:53:48,605 [  83750]   INFO - #c.i.o.a.i.PopupMenuPreloader - 9289 ms since showing to preload popup menu 'Project View Popup Menu' at 'ProjectViewPopup(preload-bgt)' in 160 ms
+2023-10-30 19:54:39,786 [ 134931]   INFO - #c.i.u.g.s.GistStorageImpl - Cleaning old huge-gists dirs from [/home/tarde/.cache/JetBrains/DataGrip2023.2/caches/huge-gists] ...
+2023-10-30 20:05:59,860 [ 815005]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-30 20:05:59,908 [ 815053]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2023-10-30 20:05:59,932 [ 815077]   INFO - #c.i.c.ComponentStoreImpl - Saving appEventLogWhitelist took 16 ms, PluginFeatureCacheService took 15 ms
+2023-10-30 20:06:00,002 [ 815147]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2023-10-30 20:06:00,025 [ 815170]   WARN - #c.i.u.x.Binding - no accessors for java.time.LocalTime
+2023-10-30 20:06:00,127 [ 815272]   INFO - #c.i.o.w.i.WindowManagerImpl - === Release(true) frame on closed project ===
+2023-10-30 20:06:00,167 [ 815312]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2023-10-30 20:06:00,168 [ 815313]   INFO - #o.j.i.BuiltInServer - web server stopped
+2023-10-30 20:06:00,172 [ 815317]   INFO - #c.i.o.f.i.FileTypeDetectionService - 1 auto-detected files. Detection took 4 ms
+2023-10-30 20:06:00,173 [ 815318]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2023-10-30 20:06:00,180 [ 815325]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2023-10-30 20:06:00,181 [ 815326]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-30 20:06:00,182 [ 815327]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-30 20:06:00,182 [ 815327]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 9ms.
+2023-10-30 20:06:00,185 [ 815330]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2023-10-30 20:06:00,187 [ 815332]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 2ms.
+2023-10-30 20:06:00,206 [ 815351]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
+2023-10-31 14:40:21,969 [     15]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2023-10-31 14:40:22,006 [     52]   INFO - #c.i.p.d.t.i.TelemetryManagerImpl - Initializing telemetry tracer com.intellij.platform.diagnostic.telemetry.impl.TelemetryManagerImpl
+2023-10-31 14:40:22,026 [     72]   INFO - #c.i.i.AppStarter - JNA library (64-bit) loaded in 21 ms
+2023-10-31 14:40:22,033 [     79]   INFO - #c.i.i.AppStarter - IDE: DataGrip (build #DB-232.10203.8, 24 Oct 2023 14:31)
+2023-10-31 14:40:22,034 [     80]   INFO - #c.i.i.AppStarter - OS: Linux (6.2.0-36-generic)
+2023-10-31 14:40:22,034 [     80]   INFO - #c.i.i.AppStarter - JRE: 17.0.8.1+7-b1000.32, amd64 (JetBrains s.r.o.)
+2023-10-31 14:40:22,035 [     81]   INFO - #c.i.i.AppStarter - JVM: 17.0.8.1+7-b1000.32 (OpenJDK 64-Bit Server VM)
+2023-10-31 14:40:22,036 [     82]   INFO - #c.i.p.d.t.CsvMetricsExporter - open-telemetry-metrics-plotter.html is not found in classpath
+2023-10-31 14:40:22,037 [     83]   INFO - #c.i.i.AppStarter - PID: 6843
+2023-10-31 14:40:22,038 [     84]   INFO - #c.i.i.AppStarter - desktop: ubuntu:GNOME
+2023-10-31 14:40:22,051 [     97]   INFO - #c.i.i.AppStarter - JVM options: [-XX:ErrorFile=/home/tarde/java_error_in_datagrip_%p.log, -XX:HeapDumpPath=/home/tarde/java_error_in_datagrip_.hprof, -Xms128m, -Xmx2048m, -XX:ReservedCodeCacheSize=512m, -XX:+UseG1GC, -XX:SoftRefLRUPolicyMSPerMB=50, -XX:CICompilerCount=2, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dsun.tools.attach.tmp.only=true, -Dawt.lock.fair=true, -Xmx2048m, -Djb.vmOptionsFile=/home/tarde/.config/JetBrains/DataGrip2023.2/datagrip64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=DataGrip2023.2, -Djna.boot.library.path=/snap/datagrip/180/lib/jna/amd64, -Dpty4j.preferred.native.folder=/snap/datagrip/180/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Didea.platform.prefix=DataGrip, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2023-10-31 14:40:22,051 [     97]   INFO - #c.i.i.AppStarter - args: 
+2023-10-31 14:40:22,052 [     98]   INFO - #c.i.i.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2023-10-31 14:40:22,052 [     98]   INFO - #c.i.i.AppStarter - boot library path: /snap/datagrip/180/jbr/lib
+2023-10-31 14:40:22,061 [    107]   INFO - #c.i.i.AppStarter - locale=es_ES JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/home/tarde/.config/JetBrains/DataGrip2023.2
+    idea.system.path=/home/tarde/.cache/JetBrains/DataGrip2023.2
+    idea.plugins.path=/home/tarde/.local/share/JetBrains/DataGrip2023.2 -> ?
+    idea.log.path=/home/tarde/.cache/JetBrains/DataGrip2023.2/log
+2023-10-31 14:40:22,065 [    111]   INFO - #c.i.i.AppStarter - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@53b10a92[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@1d996fb8
+2023-10-31 14:40:22,095 [    141]   WARN - #c.i.i.p.PluginManager - <resource-bundle>messages.DataGripBundle</resource-bundle> tag is found in an xml descriptor included into the platform part of the IDE but the platform part uses predefined bundles (e.g. ActionsBundle for actions) anyway; this tag must be replaced by a corresponding attribute in some inner tags (e.g. by 'resource-bundle' attribute in 'actions' tag)
+2023-10-31 14:40:22,124 [    170]   INFO - #c.i.i.p.PluginManager - Module intellij.platform.images.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.searchEverywhereMl.ranking.yaml is not enabled because dependency org.jetbrains.plugins.yaml is not available
+Module intellij.searchEverywhereMl.typos is not enabled because dependency tanvd.grazi is not available
+Module intellij.diagram.properties is not enabled because dependency com.intellij.properties is not available
+Module intellij.diagram.java is not enabled because dependency com.intellij.java is not available
+Module intellij.vcs.git/newUiOnboarding is not enabled because dependency intellij.platform.ide.newUiOnboarding is not available
+2023-10-31 14:40:22,133 [    179]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Diagrams (232.10203.8), WarmNeon Color Scheme (232.10203.8), Configuration Script (232.10203.8), XPathView + XSLT (232.10203.8), Charts Support (232.10203.8), Async Profiler for IDE Performance Testing (232.10203.8), com.intellij.dev (232.10203.8), Data Editor Support Core (232.10203.8), Settings Sync (232.10203.8), IDEA CORE (232.10203.8), Machine Learning in Search Everywhere (232.10203.8), VibrantInk Color Scheme (232.10203.8), Data Editor Support (232.10203.8), DataGrip Solarized Color Scheme (232.10203.8), Database Tools and SQL (232.10203.8), DataGrip Customization (232.10203.8), TextMate Bundles (232.10203.8), Remote Development Server (232.10203.8), DataGrip Help (232.10203.8), Performance Testing (232.10203.8), Git (232.10203.8), Machine Learning Code Completion (232.10203.8), Images (232.10203.8), IntelliLang (232.10203.8), IDE Settings Sync (232.10203.8)
+2023-10-31 14:40:22,214 [    260]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2023-10-31 14:40:22,237 [    283]   INFO - #c.i.o.u.r.RegistryManager - Registry values changed by user: ide.experimental.ui = true, idea.plugins.compatible.build = 
+2023-10-31 14:40:22,260 [    306]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2023-10-31 14:40:22,261 [    307]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE:10485760
+2023-10-31 14:40:22,261 [    307]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular
+2023-10-31 14:40:22,261 [    307]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2023-10-31 14:40:22,263 [    309]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2023-10-31 14:40:22,301 [    347]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses strict names enumerator
+2023-10-31 14:40:22,317 [    363]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses new (streamlined) attributes storage
+2023-10-31 14:40:22,346 [    392]   INFO - #c.i.o.v.n.p.FSRecords - using OVER_MMAPPED_FILE storage for VFS records
+2023-10-31 14:40:22,352 [    398]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS: impl (expected) version=576319, 266 file records, 7 content blobs
+2023-10-31 14:40:22,364 [    410]   INFO - #c.i.o.v.n.p.PersistentFSConnector - 11 ms to self-checks, load free records and inverted name index
+2023-10-31 14:40:22,380 [    426]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2023-10-31 14:40:22,415 [    461]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /snap/datagrip/180/bin/fsnotifier
+2023-10-31 14:40:22,443 [    489]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2023-10-31 14:40:22,596 [    642]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2023-10-31 14:40:22,651 [    697]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 14:40:22,658 [    704]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 14:40:22,659 [    705]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "NetBeans 6.5" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 14:40:22,659 [    705]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 14:40:22,676 [    722]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check disabled
+2023-10-31 14:40:22,677 [    723]   INFO - #c.i.d.i.DataGripProjectMigration - no projects in config folder
+2023-10-31 14:40:22,783 [    829]   INFO - STDOUT - 
+2023-10-31 14:40:22,788 [    834]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Light - old: Light, new Light
+2023-10-31 14:40:22,861 [    907]   INFO - #c.i.o.a.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, new.project.wizard, editor.reader.mode, new.large.text.file.viewer
+2023-10-31 14:40:22,866 [    912]   INFO - #c.i.o.w.i.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop
+2023-10-31 14:40:22,868 [    914]   INFO - #c.i.o.w.i.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar'
+2023-10-31 14:40:22,884 [    930]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:FilenameIndex(v = 258)
+2023-10-31 14:40:22,885 [    931]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2023-10-31 14:40:22,891 [    937]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 206 ms. Initialized indexes: [FilenameIndex, filetypes, XmlNamespaces, Trigram.Index, XmlTagNames, RelaxSymbolIndex, DomFileIndex, html5.custom.attributes.index, sql.types.count.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, sql.routine.index, TodoIndex, HashFragmentIndex, FrameworkDetectionIndex, fileIncludes, IdIndex, Stubs].
+2023-10-31 14:40:22,907 [    953]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 15 ms. Initialized stub indexes: {sql.names, dom.elementClass, dom.namespaceKey, sql.column.name, redis.dml.shortName, sql.table.shortName}.
+2023-10-31 14:40:22,910 [    956]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Load workspace model from cache in 127 ms
+2023-10-31 14:40:22,989 [   1035]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated silently to version 1 in 4 ms: Add module mapping
+2023-10-31 14:40:23,001 [   1047]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities from files
+2023-10-31 14:40:23,198 [   1244]   INFO - #c.i.o.w.i.GlobalMenuLinux - created instance of GlobalMenuLinux for frame: com.intellij.openapi.wm.impl.IdeFrameImpl[frame0,295,53,1400x1000,invalid,layout=java.awt.BorderLayout,title=,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=com.intellij.openapi.wm.impl.IdeRootPane[,0,0,1400x1000,invalid,layout=com.intellij.openapi.wm.impl.IdeRootPane$MyRootLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource@318433bb,flags=449,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2023-10-31 14:40:23,264 [   1310]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 14:40:23,264 [   1310]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 23 ms: Sync global entities with project: toni
+2023-10-31 14:40:23,523 [   1569]   INFO - PerformancePlugin - Performance Plugin is in silent mode
+2023-10-31 14:40:23,544 [   1590]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2023-10-31 14:40:23,628 [   1674]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@a4d726e
+2023-10-31 14:40:23,633 [   1679]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2023-10-31 14:40:23,641 [   1687]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@1076be8d
+2023-10-31 14:40:23,655 [   1701]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@1076be8d
+2023-10-31 14:40:23,656 [   1702]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@15fa00ae
+2023-10-31 14:40:23,659 [   1705]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@15fa00ae
+2023-10-31 14:40:23,660 [   1706]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@aaf5919
+2023-10-31 14:40:23,665 [   1711]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@aaf5919
+2023-10-31 14:40:23,666 [   1712]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@a4d726e
+2023-10-31 14:40:24,071 [   2117]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[toni]
+2023-10-31 14:40:24,092 [   2138]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of toni. Reason: On project open
+2023-10-31 14:40:24,096 [   2142]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for toni took 1ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-31 14:40:24,102 [   2148]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2023-10-31 14:40:24,139 [   2185]   INFO - #c.i.o.w.i.ToolWindowManagerImpl - Ignore setShowStripeButton(id=Database Changes, value=false) - not applicable for a new UI
+2023-10-31 14:40:24,148 [   2194]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2023-10-31 14:40:24,186 [   2232]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of toni uses 11 scanning threads
+2023-10-31 14:40:24,205 [   2251]   INFO - #c.i.i.a.CreateLauncherScriptAction$ObsoleteScriptLookupTask - Input length = 1
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.intellij.ide.actions.CreateLauncherScriptAction$ObsoleteScriptLookupTask.lambda$appStarted$1(CreateLauncherScriptAction.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-31 14:40:24,288 [   2334]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 4 millis (read time: 4)
+2023-10-31 14:40:24,323 [   2369]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2023-10-31 14:40:24,330 [   2376]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 189ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-31 14:40:24,348 [   2394]   INFO - #c.i.d.u.SqlDialects - SQL dialects initialized in 94 ms
+2023-10-31 14:40:24,834 [   2880]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for toni. Number of scanned files: 216; Number of files for indexing: 0 took 737ms; general responsiveness: 1/1 sluggish; EDT responsiveness: ok
+2023-10-31 14:40:24,835 [   2881]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: marking roots for initial VFS refresh
+2023-10-31 14:40:24,836 [   2882]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: starting initial VFS refresh
+2023-10-31 14:40:24,836 [   2882]   INFO - #c.i.u.i.PerProjectIndexingQueue - Finished for toni. No files to index with loading content.
+2023-10-31 14:40:24,844 [   2890]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[toni]
+2023-10-31 14:40:24,845 [   2891]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: initial VFS refresh finished 9 ms
+2023-10-31 14:40:29,367 [   7413]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2023-10-31 14:40:29,409 [   7455]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 14:40:29,410 [   7456]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 3 in 10 ms: Apply JPS storage (iml files)
+2023-10-31 14:40:29,410 [   7456]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 14:40:29,412 [   7458]   INFO - #c.i.w.i.i.j.s.DelayedProjectSynchronizer$Companion - Workspace model loaded from cache. Syncing real project state into workspace model in 72 ms. Thread[DefaultDispatcher-worker-20,5,main]
+2023-10-31 14:40:34,083 [  12129]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-31 14:40:34,140 [  12186]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2023-10-31 14:40:34,163 [  12209]   INFO - #c.i.c.ComponentStoreImpl - Saving appPluginFeatureCacheService took 14 ms
+2023-10-31 14:40:34,228 [  12274]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2023-10-31 14:40:34,271 [  12317]   WARN - #c.i.u.x.Binding - no accessors for java.time.LocalTime
+2023-10-31 14:40:34,317 [  12363]   INFO - #c.i.o.w.i.WindowManagerImpl - === Release(true) frame on closed project ===
+2023-10-31 14:40:34,360 [  12406]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2023-10-31 14:40:34,363 [  12409]   INFO - #o.j.i.BuiltInServer - web server stopped
+2023-10-31 14:40:34,366 [  12412]   INFO - #c.i.o.f.i.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms
+2023-10-31 14:40:34,369 [  12415]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2023-10-31 14:40:34,376 [  12422]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2023-10-31 14:40:34,376 [  12422]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-31 14:40:34,376 [  12422]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-31 14:40:34,377 [  12423]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 8ms.
+2023-10-31 14:40:34,422 [  12468]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2023-10-31 14:40:34,423 [  12469]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 1ms.
+2023-10-31 14:40:34,450 [  12496]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
+2023-10-31 14:40:40,441 [      1]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2023-10-31 14:40:40,443 [      3]   INFO - #c.i.p.d.t.TelemetryManager - Initializing TelemetryTracer ...
+2023-10-31 14:40:40,443 [      3]   INFO - #c.i.i.p.PluginManager - Using cached broken plugins file
+2023-10-31 14:40:40,466 [     26]   INFO - #c.i.i.AppStarter - JNA library (64-bit) loaded in 12 ms
+2023-10-31 14:40:40,494 [     54]   INFO - #c.i.i.AppStarter - IDE: DataGrip (build #DB-232.10203.8, 24 Oct 2023 14:31)
+2023-10-31 14:40:40,495 [     55]   INFO - #c.i.p.d.t.TelemetryManager - Loaded telemetry tracer service com.intellij.platform.diagnostic.telemetry.impl.TelemetryManagerImpl
+2023-10-31 14:40:40,495 [     55]   INFO - #c.i.i.AppStarter - OS: Linux (6.2.0-36-generic)
+2023-10-31 14:40:40,495 [     55]   INFO - #c.i.p.d.t.i.TelemetryManagerImpl - Initializing telemetry tracer com.intellij.platform.diagnostic.telemetry.impl.TelemetryManagerImpl
+2023-10-31 14:40:40,496 [     56]   INFO - #c.i.i.AppStarter - JRE: 17.0.8.1+7-b1000.32, amd64 (JetBrains s.r.o.)
+2023-10-31 14:40:40,496 [     56]   INFO - #c.i.i.AppStarter - JVM: 17.0.8.1+7-b1000.32 (OpenJDK 64-Bit Server VM)
+2023-10-31 14:40:40,497 [     57]   INFO - #c.i.i.AppStarter - PID: 7092
+2023-10-31 14:40:40,497 [     57]   INFO - #c.i.i.AppStarter - desktop: ubuntu:GNOME
+2023-10-31 14:40:40,512 [     72]   INFO - #c.i.p.d.t.CsvMetricsExporter - open-telemetry-metrics-plotter.html is not found in classpath
+2023-10-31 14:40:40,512 [     72]   INFO - #c.i.i.AppStarter - JVM options: [-XX:ErrorFile=/home/tarde/java_error_in_datagrip_%p.log, -XX:HeapDumpPath=/home/tarde/java_error_in_datagrip_.hprof, -Xms128m, -Xmx2048m, -XX:ReservedCodeCacheSize=512m, -XX:+UseG1GC, -XX:SoftRefLRUPolicyMSPerMB=50, -XX:CICompilerCount=2, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dsun.tools.attach.tmp.only=true, -Dawt.lock.fair=true, -Xmx2048m, -Djb.vmOptionsFile=/home/tarde/.config/JetBrains/DataGrip2023.2/datagrip64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=DataGrip2023.2, -Djna.boot.library.path=/snap/datagrip/180/lib/jna/amd64, -Dpty4j.preferred.native.folder=/snap/datagrip/180/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Didea.platform.prefix=DataGrip, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2023-10-31 14:40:40,513 [     73]   INFO - #c.i.i.AppStarter - args: 
+2023-10-31 14:40:40,514 [     74]   INFO - #c.i.i.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2023-10-31 14:40:40,514 [     74]   INFO - #c.i.i.AppStarter - boot library path: /snap/datagrip/180/jbr/lib
+2023-10-31 14:40:40,525 [     85]   INFO - #c.i.i.AppStarter - locale=es_ES JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/home/tarde/.config/JetBrains/DataGrip2023.2
+    idea.system.path=/home/tarde/.cache/JetBrains/DataGrip2023.2
+    idea.plugins.path=/home/tarde/.local/share/JetBrains/DataGrip2023.2 -> ?
+    idea.log.path=/home/tarde/.cache/JetBrains/DataGrip2023.2/log
+2023-10-31 14:40:40,530 [     90]   INFO - #c.i.i.AppStarter - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@6264f4f4[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@47533d95
+2023-10-31 14:40:40,556 [    116]   WARN - #c.i.i.p.PluginManager - <resource-bundle>messages.DataGripBundle</resource-bundle> tag is found in an xml descriptor included into the platform part of the IDE but the platform part uses predefined bundles (e.g. ActionsBundle for actions) anyway; this tag must be replaced by a corresponding attribute in some inner tags (e.g. by 'resource-bundle' attribute in 'actions' tag)
+2023-10-31 14:40:40,572 [    132]   INFO - #c.i.i.p.PluginManager - Module intellij.platform.images.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.searchEverywhereMl.ranking.yaml is not enabled because dependency org.jetbrains.plugins.yaml is not available
+Module intellij.searchEverywhereMl.typos is not enabled because dependency tanvd.grazi is not available
+Module intellij.diagram.properties is not enabled because dependency com.intellij.properties is not available
+Module intellij.diagram.java is not enabled because dependency com.intellij.java is not available
+Module intellij.vcs.git/newUiOnboarding is not enabled because dependency intellij.platform.ide.newUiOnboarding is not available
+2023-10-31 14:40:40,582 [    142]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Diagrams (232.10203.8), WarmNeon Color Scheme (232.10203.8), Configuration Script (232.10203.8), XPathView + XSLT (232.10203.8), Charts Support (232.10203.8), Async Profiler for IDE Performance Testing (232.10203.8), com.intellij.dev (232.10203.8), Data Editor Support Core (232.10203.8), Settings Sync (232.10203.8), IDEA CORE (232.10203.8), Machine Learning in Search Everywhere (232.10203.8), VibrantInk Color Scheme (232.10203.8), Data Editor Support (232.10203.8), DataGrip Solarized Color Scheme (232.10203.8), Database Tools and SQL (232.10203.8), DataGrip Customization (232.10203.8), TextMate Bundles (232.10203.8), Remote Development Server (232.10203.8), DataGrip Help (232.10203.8), Performance Testing (232.10203.8), Git (232.10203.8), Machine Learning Code Completion (232.10203.8), Images (232.10203.8), IntelliLang (232.10203.8), IDE Settings Sync (232.10203.8)
+2023-10-31 14:40:40,631 [    191]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2023-10-31 14:40:40,661 [    221]   INFO - #c.i.o.u.r.RegistryManager - Registry values changed by user: ide.experimental.ui = true, idea.plugins.compatible.build = 
+2023-10-31 14:40:40,667 [    227]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2023-10-31 14:40:40,668 [    228]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE:10485760
+2023-10-31 14:40:40,668 [    228]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular
+2023-10-31 14:40:40,669 [    229]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2023-10-31 14:40:40,677 [    237]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2023-10-31 14:40:40,705 [    265]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses strict names enumerator
+2023-10-31 14:40:40,725 [    285]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses new (streamlined) attributes storage
+2023-10-31 14:40:40,753 [    313]   INFO - #c.i.o.v.n.p.FSRecords - using OVER_MMAPPED_FILE storage for VFS records
+2023-10-31 14:40:40,757 [    317]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS: impl (expected) version=576319, 266 file records, 7 content blobs
+2023-10-31 14:40:40,766 [    326]   INFO - #c.i.o.v.n.p.PersistentFSConnector - 7 ms to self-checks, load free records and inverted name index
+2023-10-31 14:40:40,775 [    335]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2023-10-31 14:40:40,799 [    359]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /snap/datagrip/180/bin/fsnotifier
+2023-10-31 14:40:40,821 [    381]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2023-10-31 14:40:41,006 [    566]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2023-10-31 14:40:41,007 [    567]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 14:40:41,016 [    576]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 14:40:41,017 [    577]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "NetBeans 6.5" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 14:40:41,017 [    577]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 14:40:41,036 [    596]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check disabled
+2023-10-31 14:40:41,039 [    599]   INFO - #c.i.d.i.DataGripProjectMigration - no projects in config folder
+2023-10-31 14:40:41,082 [    642]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Light - old: Light, new Light
+2023-10-31 14:40:41,159 [    719]   INFO - STDOUT - 
+2023-10-31 14:40:41,176 [    736]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:FilenameIndex(v = 258)
+2023-10-31 14:40:41,177 [    737]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2023-10-31 14:40:41,182 [    742]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 139 ms. Initialized indexes: [FilenameIndex, filetypes, html5.custom.attributes.index, RelaxSymbolIndex, XmlTagNames, DomFileIndex, XmlNamespaces, Trigram.Index, json.file.root.values, SchemaTypeInheritance, XsltSymbolIndex, sql.types.count.index, sql.routine.index, fileIncludes, TodoIndex, HashFragmentIndex, IdIndex, FrameworkDetectionIndex, Stubs].
+2023-10-31 14:40:41,198 [    758]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 14 ms. Initialized stub indexes: {sql.names, redis.dml.shortName, dom.elementClass, dom.namespaceKey, sql.column.name, sql.table.shortName}.
+2023-10-31 14:40:41,212 [    772]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Load workspace model from cache in 69 ms
+2023-10-31 14:40:41,238 [    798]   INFO - #c.i.o.a.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, new.project.wizard, editor.reader.mode, new.large.text.file.viewer
+2023-10-31 14:40:41,241 [    801]   INFO - #c.i.o.w.i.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop
+2023-10-31 14:40:41,243 [    803]   INFO - #c.i.o.w.i.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar'
+2023-10-31 14:40:41,270 [    830]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated silently to version 1 in 3 ms: Add module mapping
+2023-10-31 14:40:41,279 [    839]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities from files
+2023-10-31 14:40:41,481 [   1041]   INFO - #c.i.o.w.i.GlobalMenuLinux - created instance of GlobalMenuLinux for frame: com.intellij.openapi.wm.impl.IdeFrameImpl[frame0,295,53,1400x1000,invalid,layout=java.awt.BorderLayout,title=,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=com.intellij.openapi.wm.impl.IdeRootPane[,0,0,1400x1000,invalid,layout=com.intellij.openapi.wm.impl.IdeRootPane$MyRootLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource@1d6a297e,flags=449,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2023-10-31 14:40:41,538 [   1098]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 14:40:41,539 [   1099]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 25 ms: Sync global entities with project: toni
+2023-10-31 14:40:41,795 [   1355]   INFO - PerformancePlugin - Performance Plugin is in silent mode
+2023-10-31 14:40:41,801 [   1361]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2023-10-31 14:40:41,870 [   1430]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@65527996
+2023-10-31 14:40:41,876 [   1436]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2023-10-31 14:40:41,885 [   1445]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@6a539e0b
+2023-10-31 14:40:41,899 [   1459]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@6a539e0b
+2023-10-31 14:40:41,900 [   1460]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@2e18b819
+2023-10-31 14:40:41,902 [   1462]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@2e18b819
+2023-10-31 14:40:41,904 [   1464]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@1b5147b7
+2023-10-31 14:40:41,908 [   1468]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@1b5147b7
+2023-10-31 14:40:41,909 [   1469]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@65527996
+2023-10-31 14:40:42,257 [   1817]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[toni]
+2023-10-31 14:40:42,266 [   1826]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of toni. Reason: On project open
+2023-10-31 14:40:42,274 [   1834]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for toni took 5ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-31 14:40:42,281 [   1841]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2023-10-31 14:40:42,337 [   1897]   INFO - #c.i.o.w.i.ToolWindowManagerImpl - Ignore setShowStripeButton(id=Database Changes, value=false) - not applicable for a new UI
+2023-10-31 14:40:42,363 [   1923]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2023-10-31 14:40:42,389 [   1949]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of toni uses 11 scanning threads
+2023-10-31 14:40:42,406 [   1966]   INFO - #c.i.i.a.CreateLauncherScriptAction$ObsoleteScriptLookupTask - Input length = 1
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.intellij.ide.actions.CreateLauncherScriptAction$ObsoleteScriptLookupTask.lambda$appStarted$1(CreateLauncherScriptAction.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-31 14:40:42,444 [   2004]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 1 millis (read time: 1)
+2023-10-31 14:40:42,456 [   2016]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2023-10-31 14:40:42,501 [   2061]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 161ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-31 14:40:42,512 [   2072]   INFO - #c.i.d.u.SqlDialects - SQL dialects initialized in 86 ms
+2023-10-31 14:40:42,976 [   2536]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for toni. Number of scanned files: 216; Number of files for indexing: 0 took 701ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-31 14:40:42,976 [   2536]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: marking roots for initial VFS refresh
+2023-10-31 14:40:42,977 [   2537]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: starting initial VFS refresh
+2023-10-31 14:40:42,978 [   2538]   INFO - #c.i.u.i.PerProjectIndexingQueue - Finished for toni. No files to index with loading content.
+2023-10-31 14:40:42,982 [   2542]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: initial VFS refresh finished 4 ms
+2023-10-31 14:40:42,983 [   2543]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[toni]
+2023-10-31 14:40:47,528 [   7088]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.ide.util.TipsUsageManager$State
+2023-10-31 14:40:47,542 [   7102]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2023-10-31 14:40:47,552 [   7112]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 14:40:47,553 [   7113]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 3 in 9 ms: Apply JPS storage (iml files)
+2023-10-31 14:40:47,553 [   7113]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 14:40:47,555 [   7115]   INFO - #c.i.w.i.i.j.s.DelayedProjectSynchronizer$Companion - Workspace model loaded from cache. Syncing real project state into workspace model in 46 ms. Thread[DefaultDispatcher-worker-52,5,main]
+2023-10-31 14:40:51,423 [  10983]   INFO - #c.i.o.a.i.PopupMenuPreloader - 9124 ms since showing to preload popup menu 'Project View Popup Menu' at 'ProjectViewPopup(preload-bgt)' in 168 ms
+2023-10-31 14:41:05,638 [  25198]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-31 14:41:05,720 [  25280]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2023-10-31 14:41:05,779 [  25339]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2023-10-31 14:41:05,816 [  25376]   WARN - #c.i.u.x.Binding - no accessors for java.time.LocalTime
+2023-10-31 14:41:05,867 [  25427]   INFO - #c.i.o.w.i.WindowManagerImpl - === Release(true) frame on closed project ===
+2023-10-31 14:41:05,908 [  25468]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2023-10-31 14:41:05,910 [  25470]   INFO - #o.j.i.BuiltInServer - web server stopped
+2023-10-31 14:41:05,912 [  25472]   INFO - #c.i.o.f.i.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms
+2023-10-31 14:41:05,914 [  25474]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2023-10-31 14:41:05,920 [  25480]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2023-10-31 14:41:05,920 [  25480]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-31 14:41:05,921 [  25481]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-31 14:41:05,921 [  25481]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 7ms.
+2023-10-31 14:41:05,963 [  25523]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2023-10-31 14:41:05,964 [  25524]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 1ms.
+2023-10-31 14:41:05,989 [  25549]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
+2023-10-31 16:04:46,917 [      2]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2023-10-31 16:04:46,960 [     45]   INFO - #c.i.p.d.t.i.TelemetryManagerImpl - Initializing telemetry tracer com.intellij.platform.diagnostic.telemetry.impl.TelemetryManagerImpl
+2023-10-31 16:04:46,972 [     57]   INFO - #c.i.i.AppStarter - JNA library (64-bit) loaded in 29 ms
+2023-10-31 16:04:46,979 [     64]   INFO - #c.i.i.AppStarter - IDE: DataGrip (build #DB-232.10203.8, 24 Oct 2023 14:31)
+2023-10-31 16:04:46,980 [     65]   INFO - #c.i.i.AppStarter - OS: Linux (6.2.0-36-generic)
+2023-10-31 16:04:46,981 [     66]   INFO - #c.i.i.AppStarter - JRE: 17.0.8.1+7-b1000.32, amd64 (JetBrains s.r.o.)
+2023-10-31 16:04:46,981 [     66]   INFO - #c.i.i.AppStarter - JVM: 17.0.8.1+7-b1000.32 (OpenJDK 64-Bit Server VM)
+2023-10-31 16:04:46,982 [     67]   INFO - #c.i.i.AppStarter - PID: 19423
+2023-10-31 16:04:46,982 [     67]   INFO - #c.i.i.AppStarter - desktop: ubuntu:GNOME
+2023-10-31 16:04:46,992 [     77]   INFO - #c.i.i.AppStarter - JVM options: [-XX:ErrorFile=/home/tarde/java_error_in_datagrip_%p.log, -XX:HeapDumpPath=/home/tarde/java_error_in_datagrip_.hprof, -Xms128m, -Xmx2048m, -XX:ReservedCodeCacheSize=512m, -XX:+UseG1GC, -XX:SoftRefLRUPolicyMSPerMB=50, -XX:CICompilerCount=2, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dsun.tools.attach.tmp.only=true, -Dawt.lock.fair=true, -Xmx2048m, -Djb.vmOptionsFile=/home/tarde/.config/JetBrains/DataGrip2023.2/datagrip64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=DataGrip2023.2, -Djna.boot.library.path=/snap/datagrip/180/lib/jna/amd64, -Dpty4j.preferred.native.folder=/snap/datagrip/180/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Didea.platform.prefix=DataGrip, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2023-10-31 16:04:46,993 [     78]   INFO - #c.i.i.AppStarter - args: 
+2023-10-31 16:04:46,993 [     78]   INFO - #c.i.i.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2023-10-31 16:04:46,993 [     78]   INFO - #c.i.i.AppStarter - boot library path: /snap/datagrip/180/jbr/lib
+2023-10-31 16:04:46,994 [     79]   INFO - #c.i.p.d.t.CsvMetricsExporter - open-telemetry-metrics-plotter.html is not found in classpath
+2023-10-31 16:04:47,004 [     89]   INFO - #c.i.i.AppStarter - locale=es_ES JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/home/tarde/.config/JetBrains/DataGrip2023.2
+    idea.system.path=/home/tarde/.cache/JetBrains/DataGrip2023.2
+    idea.plugins.path=/home/tarde/.local/share/JetBrains/DataGrip2023.2 -> ?
+    idea.log.path=/home/tarde/.cache/JetBrains/DataGrip2023.2/log
+2023-10-31 16:04:47,009 [     94]   INFO - #c.i.i.AppStarter - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@424f1dc3[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@610c5d45
+2023-10-31 16:04:47,019 [    104]   WARN - #c.i.i.p.PluginManager - <resource-bundle>messages.DataGripBundle</resource-bundle> tag is found in an xml descriptor included into the platform part of the IDE but the platform part uses predefined bundles (e.g. ActionsBundle for actions) anyway; this tag must be replaced by a corresponding attribute in some inner tags (e.g. by 'resource-bundle' attribute in 'actions' tag)
+2023-10-31 16:04:47,037 [    122]   INFO - #c.i.i.p.PluginManager - Module intellij.platform.images.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.searchEverywhereMl.ranking.yaml is not enabled because dependency org.jetbrains.plugins.yaml is not available
+Module intellij.searchEverywhereMl.typos is not enabled because dependency tanvd.grazi is not available
+Module intellij.diagram.properties is not enabled because dependency com.intellij.properties is not available
+Module intellij.diagram.java is not enabled because dependency com.intellij.java is not available
+Module intellij.vcs.git/newUiOnboarding is not enabled because dependency intellij.platform.ide.newUiOnboarding is not available
+2023-10-31 16:04:47,044 [    129]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Remote Development Server (232.10203.8), DataGrip Help (232.10203.8), Performance Testing (232.10203.8), Git (232.10203.8), Machine Learning Code Completion (232.10203.8), Images (232.10203.8), IntelliLang (232.10203.8), IDE Settings Sync (232.10203.8), Diagrams (232.10203.8), WarmNeon Color Scheme (232.10203.8), Configuration Script (232.10203.8), XPathView + XSLT (232.10203.8), Charts Support (232.10203.8), Async Profiler for IDE Performance Testing (232.10203.8), com.intellij.dev (232.10203.8), Data Editor Support Core (232.10203.8), Settings Sync (232.10203.8), IDEA CORE (232.10203.8), Machine Learning in Search Everywhere (232.10203.8), VibrantInk Color Scheme (232.10203.8), Data Editor Support (232.10203.8), DataGrip Solarized Color Scheme (232.10203.8), Database Tools and SQL (232.10203.8), DataGrip Customization (232.10203.8), TextMate Bundles (232.10203.8)
+2023-10-31 16:04:47,102 [    187]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2023-10-31 16:04:47,137 [    222]   INFO - #c.i.o.u.r.RegistryManager - Registry values changed by user: ide.experimental.ui = true, idea.plugins.compatible.build = 
+2023-10-31 16:04:47,145 [    230]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2023-10-31 16:04:47,145 [    230]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE:10485760
+2023-10-31 16:04:47,145 [    230]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular
+2023-10-31 16:04:47,146 [    231]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2023-10-31 16:04:47,153 [    238]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2023-10-31 16:04:47,192 [    277]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses strict names enumerator
+2023-10-31 16:04:47,213 [    298]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses new (streamlined) attributes storage
+2023-10-31 16:04:47,235 [    320]   INFO - #c.i.o.v.n.p.FSRecords - using OVER_MMAPPED_FILE storage for VFS records
+2023-10-31 16:04:47,241 [    326]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS: impl (expected) version=576319, 266 file records, 7 content blobs
+2023-10-31 16:04:47,254 [    339]   INFO - #c.i.o.v.n.p.PersistentFSConnector - 11 ms to self-checks, load free records and inverted name index
+2023-10-31 16:04:47,274 [    359]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2023-10-31 16:04:47,301 [    386]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /snap/datagrip/180/bin/fsnotifier
+2023-10-31 16:04:47,311 [    396]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2023-10-31 16:04:47,504 [    589]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2023-10-31 16:04:47,528 [    613]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 16:04:47,540 [    625]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 16:04:47,540 [    625]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "NetBeans 6.5" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 16:04:47,541 [    626]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 16:04:47,562 [    647]   INFO - #c.i.d.i.DataGripProjectMigration - no projects in config folder
+2023-10-31 16:04:47,564 [    649]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check disabled
+2023-10-31 16:04:47,612 [    697]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Light - old: Light, new Light
+2023-10-31 16:04:47,672 [    757]   INFO - STDOUT - 
+2023-10-31 16:04:47,688 [    773]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:FilenameIndex(v = 258)
+2023-10-31 16:04:47,690 [    775]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2023-10-31 16:04:47,695 [    780]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 123 ms. Initialized indexes: [FilenameIndex, filetypes, html5.custom.attributes.index, DomFileIndex, XmlTagNames, RelaxSymbolIndex, XmlNamespaces, Trigram.Index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, sql.types.count.index, sql.routine.index, TodoIndex, IdIndex, FrameworkDetectionIndex, fileIncludes, HashFragmentIndex, Stubs].
+2023-10-31 16:04:47,702 [    787]   INFO - #c.i.o.a.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, new.project.wizard, editor.reader.mode, new.large.text.file.viewer
+2023-10-31 16:04:47,706 [    791]   INFO - #c.i.o.w.i.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop
+2023-10-31 16:04:47,709 [    794]   INFO - #c.i.o.w.i.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar'
+2023-10-31 16:04:47,710 [    795]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 14 ms. Initialized stub indexes: {sql.column.name, dom.namespaceKey, sql.table.shortName, redis.dml.shortName, dom.elementClass, sql.names}.
+2023-10-31 16:04:47,761 [    846]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Load workspace model from cache in 96 ms
+2023-10-31 16:04:47,845 [    930]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated silently to version 1 in 3 ms: Add module mapping
+2023-10-31 16:04:47,855 [    940]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities from files
+2023-10-31 16:04:48,039 [   1124]   INFO - #c.i.o.w.i.GlobalMenuLinux - created instance of GlobalMenuLinux for frame: com.intellij.openapi.wm.impl.IdeFrameImpl[frame0,286,80,1400x1000,invalid,layout=java.awt.BorderLayout,title=,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=com.intellij.openapi.wm.impl.IdeRootPane[,0,0,1400x1000,invalid,layout=com.intellij.openapi.wm.impl.IdeRootPane$MyRootLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource@1d6401a8,flags=449,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2023-10-31 16:04:48,097 [   1182]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 16:04:48,097 [   1182]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 22 ms: Sync global entities with project: toni
+2023-10-31 16:04:48,374 [   1459]   INFO - PerformancePlugin - Performance Plugin is in silent mode
+2023-10-31 16:04:48,382 [   1467]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2023-10-31 16:04:48,468 [   1553]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@4d20167e
+2023-10-31 16:04:48,470 [   1555]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2023-10-31 16:04:48,473 [   1558]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@39072177
+2023-10-31 16:04:48,488 [   1573]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@39072177
+2023-10-31 16:04:48,490 [   1575]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@4a99348c
+2023-10-31 16:04:48,493 [   1578]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@4a99348c
+2023-10-31 16:04:48,495 [   1580]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@1bc93c3b
+2023-10-31 16:04:48,498 [   1583]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@1bc93c3b
+2023-10-31 16:04:48,498 [   1583]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@4d20167e
+2023-10-31 16:04:48,899 [   1984]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[toni]
+2023-10-31 16:04:48,918 [   2003]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of toni. Reason: On project open
+2023-10-31 16:04:48,922 [   2007]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for toni took 1ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-31 16:04:48,929 [   2014]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2023-10-31 16:04:48,965 [   2050]   INFO - #c.i.o.w.i.ToolWindowManagerImpl - Ignore setShowStripeButton(id=Database Changes, value=false) - not applicable for a new UI
+2023-10-31 16:04:48,974 [   2059]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2023-10-31 16:04:49,001 [   2086]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of toni uses 11 scanning threads
+2023-10-31 16:04:49,022 [   2107]   INFO - #c.i.i.a.CreateLauncherScriptAction$ObsoleteScriptLookupTask - Input length = 1
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.intellij.ide.actions.CreateLauncherScriptAction$ObsoleteScriptLookupTask.lambda$appStarted$1(CreateLauncherScriptAction.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-31 16:04:49,086 [   2171]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 2 millis (read time: 2)
+2023-10-31 16:04:49,104 [   2189]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2023-10-31 16:04:49,134 [   2219]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 167ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-31 16:04:49,140 [   2225]   INFO - #c.i.d.u.SqlDialects - SQL dialects initialized in 101 ms
+2023-10-31 16:04:49,609 [   2694]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for toni. Number of scanned files: 216; Number of files for indexing: 0 took 687ms; general responsiveness: 1/1 sluggish; EDT responsiveness: ok
+2023-10-31 16:04:49,610 [   2695]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: marking roots for initial VFS refresh
+2023-10-31 16:04:49,612 [   2697]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: starting initial VFS refresh
+2023-10-31 16:04:49,612 [   2697]   INFO - #c.i.u.i.PerProjectIndexingQueue - Finished for toni. No files to index with loading content.
+2023-10-31 16:04:49,617 [   2702]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[toni]
+2023-10-31 16:04:49,618 [   2703]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: initial VFS refresh finished 6 ms
+2023-10-31 16:04:52,765 [   5850]   INFO - #c.i.o.a.i.PopupMenuPreloader - 3824 ms since showing to preload popup menu 'Project View Popup Menu' at 'ProjectViewPopup(preload-bgt)' in 133 ms
+2023-10-31 16:04:54,147 [   7232]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.ide.util.TipsUsageManager$State
+2023-10-31 16:04:54,157 [   7242]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2023-10-31 16:04:54,170 [   7255]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 16:04:54,171 [   7256]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 3 in 13 ms: Apply JPS storage (iml files)
+2023-10-31 16:04:54,171 [   7256]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 16:04:54,173 [   7258]   INFO - #c.i.w.i.i.j.s.DelayedProjectSynchronizer$Companion - Workspace model loaded from cache. Syncing real project state into workspace model in 34 ms. Thread[DefaultDispatcher-worker-26,5,main]
+2023-10-31 16:05:48,919 [  62004]   INFO - #c.i.u.g.s.GistStorageImpl - Cleaning old huge-gists dirs from [/home/tarde/.cache/JetBrains/DataGrip2023.2/caches/huge-gists] ...
+2023-10-31 16:06:02,883 [  75968]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-31 16:06:04,590 [  77675]   INFO - #c.i.o.a.i.PopupMenuPreloader - 13623 ms since showing to preload popup menu 'Project View Popup Menu' at 'ProjectViewPopup(preload-bgt)' in 8 ms
+2023-10-31 16:06:48,579 [ 121664]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-31 16:07:22,301 [ 155386]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-31 16:07:22,330 [ 155415]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2023-10-31 16:07:22,374 [ 155459]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2023-10-31 16:07:22,398 [ 155483]   WARN - #c.i.u.x.Binding - no accessors for java.time.LocalTime
+2023-10-31 16:07:22,480 [ 155565]   INFO - #c.i.o.w.i.WindowManagerImpl - === Release(true) frame on closed project ===
+2023-10-31 16:07:22,532 [ 155617]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2023-10-31 16:07:22,534 [ 155619]   INFO - #o.j.i.BuiltInServer - web server stopped
+2023-10-31 16:07:22,537 [ 155622]   INFO - #c.i.o.f.i.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms
+2023-10-31 16:07:22,538 [ 155623]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2023-10-31 16:07:22,544 [ 155629]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2023-10-31 16:07:22,544 [ 155629]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-31 16:07:22,545 [ 155630]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-31 16:07:22,545 [ 155630]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 7ms.
+2023-10-31 16:07:22,548 [ 155633]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2023-10-31 16:07:22,549 [ 155634]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 1ms.
+2023-10-31 16:07:22,565 [ 155650]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
+2023-10-31 16:48:22,494 [      3]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2023-10-31 16:48:22,535 [     44]   INFO - #c.i.p.d.t.i.TelemetryManagerImpl - Initializing telemetry tracer com.intellij.platform.diagnostic.telemetry.impl.TelemetryManagerImpl
+2023-10-31 16:48:22,548 [     57]   INFO - #c.i.i.AppStarter - JNA library (64-bit) loaded in 23 ms
+2023-10-31 16:48:22,555 [     64]   INFO - #c.i.i.AppStarter - IDE: DataGrip (build #DB-232.10203.8, 24 Oct 2023 14:31)
+2023-10-31 16:48:22,556 [     65]   INFO - #c.i.i.AppStarter - OS: Linux (6.2.0-36-generic)
+2023-10-31 16:48:22,556 [     65]   INFO - #c.i.i.AppStarter - JRE: 17.0.8.1+7-b1000.32, amd64 (JetBrains s.r.o.)
+2023-10-31 16:48:22,557 [     66]   INFO - #c.i.i.AppStarter - JVM: 17.0.8.1+7-b1000.32 (OpenJDK 64-Bit Server VM)
+2023-10-31 16:48:22,557 [     66]   INFO - #c.i.i.AppStarter - PID: 20870
+2023-10-31 16:48:22,558 [     67]   INFO - #c.i.i.AppStarter - desktop: ubuntu:GNOME
+2023-10-31 16:48:22,563 [     72]   INFO - #c.i.p.d.t.CsvMetricsExporter - open-telemetry-metrics-plotter.html is not found in classpath
+2023-10-31 16:48:22,567 [     76]   INFO - #c.i.i.AppStarter - JVM options: [-XX:ErrorFile=/home/tarde/java_error_in_datagrip_%p.log, -XX:HeapDumpPath=/home/tarde/java_error_in_datagrip_.hprof, -Xms128m, -Xmx2048m, -XX:ReservedCodeCacheSize=512m, -XX:+UseG1GC, -XX:SoftRefLRUPolicyMSPerMB=50, -XX:CICompilerCount=2, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dsun.tools.attach.tmp.only=true, -Dawt.lock.fair=true, -Xmx2048m, -Djb.vmOptionsFile=/home/tarde/.config/JetBrains/DataGrip2023.2/datagrip64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=DataGrip2023.2, -Djna.boot.library.path=/snap/datagrip/180/lib/jna/amd64, -Dpty4j.preferred.native.folder=/snap/datagrip/180/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Didea.platform.prefix=DataGrip, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2023-10-31 16:48:22,568 [     77]   INFO - #c.i.i.AppStarter - args: 
+2023-10-31 16:48:22,568 [     77]   INFO - #c.i.i.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2023-10-31 16:48:22,568 [     77]   INFO - #c.i.i.AppStarter - boot library path: /snap/datagrip/180/jbr/lib
+2023-10-31 16:48:22,580 [     89]   INFO - #c.i.i.AppStarter - locale=es_ES JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/home/tarde/.config/JetBrains/DataGrip2023.2
+    idea.system.path=/home/tarde/.cache/JetBrains/DataGrip2023.2
+    idea.plugins.path=/home/tarde/.local/share/JetBrains/DataGrip2023.2 -> ?
+    idea.log.path=/home/tarde/.cache/JetBrains/DataGrip2023.2/log
+2023-10-31 16:48:22,584 [     93]   INFO - #c.i.i.AppStarter - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@5bcb38ad[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@3507bf47
+2023-10-31 16:48:22,592 [    101]   WARN - #c.i.i.p.PluginManager - <resource-bundle>messages.DataGripBundle</resource-bundle> tag is found in an xml descriptor included into the platform part of the IDE but the platform part uses predefined bundles (e.g. ActionsBundle for actions) anyway; this tag must be replaced by a corresponding attribute in some inner tags (e.g. by 'resource-bundle' attribute in 'actions' tag)
+2023-10-31 16:48:22,615 [    124]   INFO - #c.i.i.p.PluginManager - Module intellij.platform.images.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.searchEverywhereMl.ranking.yaml is not enabled because dependency org.jetbrains.plugins.yaml is not available
+Module intellij.searchEverywhereMl.typos is not enabled because dependency tanvd.grazi is not available
+Module intellij.diagram.properties is not enabled because dependency com.intellij.properties is not available
+Module intellij.diagram.java is not enabled because dependency com.intellij.java is not available
+Module intellij.vcs.git/newUiOnboarding is not enabled because dependency intellij.platform.ide.newUiOnboarding is not available
+2023-10-31 16:48:22,624 [    133]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Machine Learning Code Completion (232.10203.8), Git (232.10203.8), Performance Testing (232.10203.8), DataGrip Help (232.10203.8), Remote Development Server (232.10203.8), TextMate Bundles (232.10203.8), DataGrip Customization (232.10203.8), Database Tools and SQL (232.10203.8), DataGrip Solarized Color Scheme (232.10203.8), Data Editor Support (232.10203.8), VibrantInk Color Scheme (232.10203.8), Machine Learning in Search Everywhere (232.10203.8), IDEA CORE (232.10203.8), Settings Sync (232.10203.8), Data Editor Support Core (232.10203.8), com.intellij.dev (232.10203.8), Async Profiler for IDE Performance Testing (232.10203.8), Charts Support (232.10203.8), XPathView + XSLT (232.10203.8), Configuration Script (232.10203.8), WarmNeon Color Scheme (232.10203.8), Diagrams (232.10203.8), IDE Settings Sync (232.10203.8), IntelliLang (232.10203.8), Images (232.10203.8)
+2023-10-31 16:48:22,690 [    199]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2023-10-31 16:48:22,724 [    233]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2023-10-31 16:48:22,725 [    234]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE:10485760
+2023-10-31 16:48:22,725 [    234]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular
+2023-10-31 16:48:22,725 [    234]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2023-10-31 16:48:22,727 [    236]   INFO - #c.i.o.u.r.RegistryManager - Registry values changed by user: ide.experimental.ui = true, idea.plugins.compatible.build = 
+2023-10-31 16:48:22,734 [    243]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2023-10-31 16:48:22,765 [    274]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses strict names enumerator
+2023-10-31 16:48:22,779 [    288]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses new (streamlined) attributes storage
+2023-10-31 16:48:22,812 [    321]   INFO - #c.i.o.v.n.p.FSRecords - using OVER_MMAPPED_FILE storage for VFS records
+2023-10-31 16:48:22,818 [    327]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS: impl (expected) version=576319, 266 file records, 7 content blobs
+2023-10-31 16:48:22,830 [    339]   INFO - #c.i.o.v.n.p.PersistentFSConnector - 10 ms to self-checks, load free records and inverted name index
+2023-10-31 16:48:22,846 [    355]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2023-10-31 16:48:22,883 [    392]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /snap/datagrip/180/bin/fsnotifier
+2023-10-31 16:48:22,892 [    401]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2023-10-31 16:48:23,051 [    560]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2023-10-31 16:48:23,120 [    629]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check disabled
+2023-10-31 16:48:23,122 [    631]   INFO - #c.i.d.i.DataGripProjectMigration - no projects in config folder
+2023-10-31 16:48:23,132 [    641]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 16:48:23,143 [    652]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 16:48:23,143 [    652]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "NetBeans 6.5" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 16:48:23,144 [    653]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/180/lib, version=232.10203.8, package=com.intellij.structuralsearch, isBundled=true)
+2023-10-31 16:48:23,221 [    730]   INFO - STDOUT - 
+2023-10-31 16:48:23,224 [    733]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Light - old: Light, new Light
+2023-10-31 16:48:23,302 [    811]   INFO - #c.i.o.a.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, new.project.wizard, editor.reader.mode, new.large.text.file.viewer
+2023-10-31 16:48:23,305 [    814]   INFO - #c.i.o.w.i.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop
+2023-10-31 16:48:23,307 [    816]   INFO - #c.i.o.w.i.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar'
+2023-10-31 16:48:23,317 [    826]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Load workspace model from cache in 98 ms
+2023-10-31 16:48:23,366 [    875]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:FilenameIndex(v = 258)
+2023-10-31 16:48:23,367 [    876]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2023-10-31 16:48:23,372 [    881]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 243 ms. Initialized indexes: [FilenameIndex, filetypes, RelaxSymbolIndex, DomFileIndex, Trigram.Index, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, json.file.root.values, SchemaTypeInheritance, XsltSymbolIndex, sql.types.count.index, sql.routine.index, TodoIndex, IdIndex, fileIncludes, HashFragmentIndex, FrameworkDetectionIndex, Stubs].
+2023-10-31 16:48:23,386 [    895]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 14 ms. Initialized stub indexes: {sql.table.shortName, dom.namespaceKey, dom.elementClass, redis.dml.shortName, sql.column.name, sql.names}.
+2023-10-31 16:48:23,386 [    895]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated silently to version 1 in 4 ms: Add module mapping
+2023-10-31 16:48:23,396 [    905]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities from files
+2023-10-31 16:48:23,584 [   1093]   INFO - #c.i.o.w.i.GlobalMenuLinux - created instance of GlobalMenuLinux for frame: com.intellij.openapi.wm.impl.IdeFrameImpl[frame0,521,72,1400x1000,invalid,layout=java.awt.BorderLayout,title=,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=com.intellij.openapi.wm.impl.IdeRootPane[,0,0,1400x1000,invalid,layout=com.intellij.openapi.wm.impl.IdeRootPane$MyRootLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource@1d96590a,flags=449,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2023-10-31 16:48:23,645 [   1154]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 16:48:23,645 [   1154]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 22 ms: Sync global entities with project: toni
+2023-10-31 16:48:23,898 [   1407]   INFO - PerformancePlugin - Performance Plugin is in silent mode
+2023-10-31 16:48:23,921 [   1430]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2023-10-31 16:48:23,998 [   1507]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@4c783e10
+2023-10-31 16:48:24,003 [   1512]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2023-10-31 16:48:24,011 [   1520]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@62907d97
+2023-10-31 16:48:24,026 [   1535]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@62907d97
+2023-10-31 16:48:24,027 [   1536]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@12123347
+2023-10-31 16:48:24,030 [   1539]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@12123347
+2023-10-31 16:48:24,031 [   1540]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@4a3e8c75
+2023-10-31 16:48:24,036 [   1545]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@4a3e8c75
+2023-10-31 16:48:24,037 [   1546]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@4c783e10
+2023-10-31 16:48:24,352 [   1861]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[toni]
+2023-10-31 16:48:24,371 [   1880]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of toni. Reason: On project open
+2023-10-31 16:48:24,375 [   1884]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for toni took 1ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-31 16:48:24,383 [   1892]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2023-10-31 16:48:24,416 [   1925]   INFO - #c.i.o.w.i.ToolWindowManagerImpl - Ignore setShowStripeButton(id=Database Changes, value=false) - not applicable for a new UI
+2023-10-31 16:48:24,425 [   1934]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2023-10-31 16:48:24,475 [   1984]   INFO - #c.i.i.a.CreateLauncherScriptAction$ObsoleteScriptLookupTask - Input length = 1
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.intellij.ide.actions.CreateLauncherScriptAction$ObsoleteScriptLookupTask.lambda$appStarted$1(CreateLauncherScriptAction.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-31 16:48:24,480 [   1989]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of toni uses 11 scanning threads
+2023-10-31 16:48:24,518 [   2027]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 1 millis (read time: 1)
+2023-10-31 16:48:24,522 [   2031]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2023-10-31 16:48:24,538 [   2047]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 120ms; general responsiveness: ok; EDT responsiveness: ok
+2023-10-31 16:48:24,549 [   2058]   INFO - #c.i.d.u.SqlDialects - SQL dialects initialized in 37 ms
+2023-10-31 16:48:25,073 [   2582]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for toni. Number of scanned files: 216; Number of files for indexing: 0 took 697ms; general responsiveness: 1/1 sluggish; EDT responsiveness: ok
+2023-10-31 16:48:25,074 [   2583]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: marking roots for initial VFS refresh
+2023-10-31 16:48:25,074 [   2583]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: starting initial VFS refresh
+2023-10-31 16:48:25,075 [   2584]   INFO - #c.i.u.i.PerProjectIndexingQueue - Finished for toni. No files to index with loading content.
+2023-10-31 16:48:25,078 [   2587]   INFO - #c.i.u.i.UnindexedFilesScanner - 9b7769a5: initial VFS refresh finished 3 ms
+2023-10-31 16:48:25,079 [   2588]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[toni]
+2023-10-31 16:48:29,559 [   7068]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.ide.util.TipsUsageManager$State
+2023-10-31 16:48:29,580 [   7089]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2023-10-31 16:48:29,592 [   7101]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 16:48:29,593 [   7102]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 3 in 11 ms: Apply JPS storage (iml files)
+2023-10-31 16:48:29,594 [   7103]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-10-31 16:48:29,596 [   7105]   INFO - #c.i.w.i.i.j.s.DelayedProjectSynchronizer$Companion - Workspace model loaded from cache. Syncing real project state into workspace model in 50 ms. Thread[DefaultDispatcher-worker-43,5,main]
+2023-10-31 16:49:24,371 [  61880]   INFO - #c.i.u.g.s.GistStorageImpl - Cleaning old huge-gists dirs from [/home/tarde/.cache/JetBrains/DataGrip2023.2/caches/huge-gists] ...
+2023-10-31 16:50:14,905 [ 112414]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-10-31 16:50:14,964 [ 112473]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2023-10-31 16:50:15,015 [ 112524]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2023-10-31 16:50:15,055 [ 112564]   WARN - #c.i.u.x.Binding - no accessors for java.time.LocalTime
+2023-10-31 16:50:15,135 [ 112644]   INFO - #c.i.o.w.i.WindowManagerImpl - === Release(true) frame on closed project ===
+2023-10-31 16:50:15,192 [ 112701]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2023-10-31 16:50:15,196 [ 112705]   INFO - #o.j.i.BuiltInServer - web server stopped
+2023-10-31 16:50:15,200 [ 112709]   INFO - #c.i.o.f.i.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms
+2023-10-31 16:50:15,203 [ 112712]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2023-10-31 16:50:15,210 [ 112719]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2023-10-31 16:50:15,211 [ 112720]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-31 16:50:15,212 [ 112721]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /home/tarde/.cache/JetBrains/DataGrip2023.2/index/rep.names
+2023-10-31 16:50:15,213 [ 112722]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 9ms.
+2023-10-31 16:50:15,218 [ 112727]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2023-10-31 16:50:15,221 [ 112730]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 3ms.
+2023-10-31 16:50:15,242 [ 112751]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

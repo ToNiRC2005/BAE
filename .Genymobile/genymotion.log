@@ -1,0 +1,125 @@
+2023-12-14T14:48:08Z [genymotion:5785] [info] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+2023-12-14T14:48:08Z [Genymotion:5785] [warning] "Unable to load Qt translations qt_es_es from /opt/genymobile/genymotion/translations."
+2023-12-14T14:48:08Z [Genymotion:5785] [warning] "Unable to load app translations launchpad_es_es from /opt/genymobile/genymotion/translations."
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] Falling back on English translations.
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] ==== STARTING GENYMOTION ====
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] Genymotion Version: "3.5.1" 20231004-7ab9f7e60c
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] Architecture: "desktop=x86_64 cpu=x86_64 rosetta=0 osimages=x86,x86_64 osversion=22.4.0"
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] "Local socket created at path: /tmp/907f397a1f5a71abaaa526042f58a1b0"
+2023-12-14T14:48:08Z [Genymotion:5785] [warning] Failed to open "/home/tarde/.Genymobile/Genymotion/settings.json" "No such file or directory"
+2023-12-14T14:48:08Z [Genymotion:5785] [warning] Failed to open "/home/tarde/.Genymobile/Genymotion/settings.json" "No such file or directory"
+2023-12-14T14:48:08Z [Genymotion:5785] [warning] Failed to open "/home/tarde/.Genymobile/Genymotion/settings.json" "No such file or directory"
+2023-12-14T14:48:08Z [Genymotion:5785] [critical] Migrating settings since version is 0 but expect version 1
+2023-12-14T14:48:08Z [Genymotion:5785] [warning] Failed to open "/home/tarde/.Genymobile/Genymotion/settings.json" "No such file or directory"
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] No proxy set
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] Host date and time: "14 Dec 2023 14:48:08 +0000"
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] Theme assetsUrl "qrc:/themes/default"
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] [LaunchpadApp] Started with ("/opt/genymobile/genymotion/genymotion")
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] GET "https://cloud.genymotion.com/patterns/hardware-profiles?desktop_version=3.5.1"
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] GET "https://cloud.genymotion.com/patterns/os-images?desktop_version=3.5.1&arch=x86&arch=x86_64"
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] table stats doesn't exist, creating it and removing stats key in configuration file
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] GL_VENDOR: "AMD"
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] GL_RENDERER: "RENOIR (renoir, LLVM 15.0.7, DRM 3.49, 6.2.0-39-generic)"
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] GL_VERSION: "4.6 (Compatibility Profile) Mesa 23.0.4-0ubuntu1~22.04.1"
+2023-12-14T14:48:08Z [Genymotion:5785] [debug] GL_SHADING_LANGUAGE_VERSION: "4.60"
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] GET "https://cloud.genymotion.com/patterns/hardware-profiles?desktop_version=3.5.1"
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Loading "virtualbox" plugin
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Constructing engine
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Chipset: "AuthenticAMD"
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] CPUID 0x80000001 (AMD): ECX= "7ef8320b"
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Path: "/usr/bin/VBoxManage"
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Initializing engine
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("--version")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] get "" from virtualbox.host_only_interface_name
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] [findHostOnlyInterface] Looking for compatible host-only interface
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("list", "hostonlyifs")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Empty interface name
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Creating new host-only interface
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("hostonlyif", "create")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] Refreshing Hub session
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] Failed to log on Hub ""
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] HTTP response is an error
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] HTTP status code: 401, from cache: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] HTTP headers:
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] HTTP content (first 127 bytes): 
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] Downloading list of Genymotion HwProfile failed: "No credentials provided."
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] Unable to retrieve hwprofiles.
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] Unable to retrieve hwprofiles.
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] [tokenError] AbstractAuthService::Error::EmptyCredential ""
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Interface "vboxnet0" created with success
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("list", "hostonlyifs")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("hostonlyif", "ipconfig", "vboxnet0", "--ip", "192.168.56.1", "--netmask", "255.255.255.0")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("dhcpserver", "remove", "--ifname", "vboxnet0")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] Refreshing Hub session
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] Failed to log on Hub ""
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] HTTP response is an error
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] HTTP status code: 401, from cache: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] HTTP headers:
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] HTTP content (first 127 bytes): 
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] Downloading list of Genymotion os images failed: "No credentials provided."
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] Unable to retrieve osimages.
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] [tokenError] AbstractAuthService::Error::EmptyCredential ""
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] Refreshing Hub session
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] Failed to log on Hub ""
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] HTTP response is an error
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] HTTP status code: 401, from cache: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] HTTP headers:
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] HTTP content (first 127 bytes): 
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] Downloading list of Genymotion HwProfile failed: "No credentials provided."
+2023-12-14T14:48:09Z [Genymotion:5785] [warning] [tokenError] AbstractAuthService::Error::EmptyCredential ""
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("dhcpserver", "add", "--ifname", "vboxnet0", "--ip", "192.168.56.100", "--netmask", "255.255.255.0", "--lowerip", "192.168.56.101", "--upperip", "192.168.56.254", "--enable")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] DHCP server created with success
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] set "vboxnet0" to virtualbox.host_only_interface_name
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] "vboxnet0" host-only interface is ready to use
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] VMX/SVM CPU availability: false
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] VM engine version: "7.0.12r159484"
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("list", "bridgedifs")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("list", "vms")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("guestproperty", "enumerate", "b3103a30-3e56-4ebc-ae63-4a167af17c03")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("showvminfo", "--machinereadable", "b3103a30-3e56-4ebc-ae63-4a167af17c03")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Device "windows10" is not a Genymotion virtual device, ignoring
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("guestproperty", "enumerate", "4db8a45c-079f-4796-ab6a-d1a64027dfed")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("showvminfo", "--machinereadable", "4db8a45c-079f-4796-ab6a-d1a64027dfed")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Device "ubuntu_Antonio_Rodríguez" is not a Genymotion virtual device, ignoring
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("guestproperty", "enumerate", "465d983a-7a9f-4501-a78f-ad39582d1cb2")
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:09Z [Genymotion:5785] [debug] [VMTools] Call: ("showvminfo", "--machinereadable", "465d983a-7a9f-4501-a78f-ad39582d1cb2")
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Device "windows10 clonar1" is not a Genymotion virtual device, ignoring
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Call: ("guestproperty", "enumerate", "f2339d9f-ba14-49aa-9f4e-11b04dd7d525")
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Call: ("showvminfo", "--machinereadable", "f2339d9f-ba14-49aa-9f4e-11b04dd7d525")
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Device "ubuntu_Antonio_Rodríguez clonar" is not a Genymotion virtual device, ignoring
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Call: ("guestproperty", "enumerate", "f9db11b3-af4a-424f-9be7-d1504a03e7cf")
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Call: ("showvminfo", "--machinereadable", "f9db11b3-af4a-424f-9be7-d1504a03e7cf")
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Device "arranquedual" is not a Genymotion virtual device, ignoring
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Call: ("guestproperty", "enumerate", "422f76e3-8801-42d5-839b-067b045c9a7f")
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Call: ("showvminfo", "--machinereadable", "422f76e3-8801-42d5-839b-067b045c9a7f")
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Device "ejer3" is not a Genymotion virtual device, ignoring
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Call: ("guestproperty", "enumerate", "6d4f7008-3cb7-40ba-92a0-0489209d7aa3")
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Call: ("showvminfo", "--machinereadable", "6d4f7008-3cb7-40ba-92a0-0489209d7aa3")
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Return code: 0
+2023-12-14T14:48:10Z [Genymotion:5785] [debug] [VMTools] Device "WINDOWS (COMANDS)" is not a Genymotion virtual device, ignoring
+2023-12-14T14:48:10Z [Genymotion:5785] [warning] Invalid proxy type ""
+2023-12-14T14:48:10Z [Genymotion:5785] [warning] Invalid proxy type ""
+2023-12-14T14:48:12Z [Genymotion:5785] [debug] ==== STOPPING GENYMOTION ====
+2023-12-14T14:48:12Z [Genymotion:5785] [debug] Exit status: 0 Launchpad::ExitCode::SUCCESS

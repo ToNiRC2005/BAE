@@ -1,0 +1,363 @@
+ist_dependant_measurestest_correlation
+test_powertest_gof	test_metateststest_descriptivestatstest_outliers_influencetest_oaxacatest_knockofftest_influencetest_oneway
+test_anovatest_anova_rmtest_proportiontest_corrpsdtest_rates_poissontest_contingency_tables	test_basetest_diagnostic_othertest_contrasttest_deltacovtest_multivariatetest_sandwichtest_mediationtest_statstools	test_tosttest_diagnostic
+test_multiresults_metaresults_power"results_multinomial_proportions'$lilliefors_critical_value_simulationresults_ratesresults_proportionresults_panelrobust
+results	make_tbls
+libqsturngqsturng_test_qsturngteststest_packagetest_x13testsprint_versiondataparallel
+testing
+decorators_testingtools
+numdiff	sequencesrootfinding	cataddtest_inter_ratertoolstransform_model	docstring
+grouputilsrng_qrngweb	typingsm_exceptionseval_measures
+test_toolstest_decoratorstest_testingtest_transform_model	test_datatest_webtest_cataddtest_linalgtest_paralleltest_sequencestest_grouputilstest_numdifftest_eval_measurestest_docstringtest_rootfindingtests
+validation
+decorators
+validationtest_validationtestspatsy	python	linalg	pytestplatformscipy_scipy_multivariate_t	compat	pandastest_pandastest_itercompattest_scipy_compattestsqif
+cov_structgeneralized_linear_model# generalized_estimating_equationsbayes_mixed_glm_tweedie_compound_poissonapi	genmodtest_constrainedtest_glmgee_simulation_check# gee_categorical_simulation_checktest_glm_weightstest_geetest_qifgee_poisson_simulation_checktest_bayes_mixed_glmtest_gee_glmtest_score_test gee_gaussian_simulation_checktestsglmnet_r_resultsresults_glm_poisson_weightsglm_test_residsgee_generate_testsres_R_var_weight
+resultselastic_net_generate_testsresults_glm	familylinksvarfuncsfamiliestest_family	test_linktestsrobust_linear_modelnormsscale	robusttest_mquantilestest_rlm
+test_norms
+test_scaletestsresults_rlmresults_norms
+resultsdescriptivenumpyoriginregress
+elanovaapi
+emplike	elregress
+test_anovatest_descriptivetest_origintest_aftteststest_regression
+el_results
+resultsapiformulatools
+formulatest_formulatests	descstats	aft_elgam
+bsplinepredict_functionalinfotheorlsmlemultilinearpca
+sandboxvarma
+diffusion2	try_fiexample_arma
+movstat	diffusiontry_var_convolvetry_arma_moretsa
+fftarmapanelmodrandom_panelpanel_shortcorrelation_structuressandwich_covariance_genericmixedpaneltest_random_paneltestsstats_mstats_shortex_newtests	multicompcontrast_tools
+diagnosticstats_dhuardstatsrunstest_multicomp	test_runsteststest_predict_functionaltest_pcamaketests_mlabwraptest_gam
+savervsteststry_mctools	tools_pca	cross_val
+mctoolstoolstsalinalg_covmatlinalg_decomp_1
+archivefactormodelsdataricharma
+mcevaluateanova_nistcertifiedtry_treewalkergmm
+sympy_diff	runmnltreewalkerclassexample_kernridge	penalizedtry_ols_anova	onewayglstoolstry_catdataar_panel
+predstdkernridgeregress_class
+regressionols_anova_originalresults_ivreg2_grilichesresults_gmm_griliches_iter	sysreg	pandas
+missingops_dispatchops
+testingintervallibpandas_parser
+parsers	sparse_libsbyteswappandas_datetime	arraysindexingtslib
+properties	internals
+reshapejsonalgosjoinsas
+groupby
+hashingExtensionEngineMaskedInt8EnginePeriodEngine
+Int8EngineMaskedUInt64EngineMaskedUInt32EngineUInt16EngineMaskedIndexEngineMaskedComplex128EngineMaskedUInt16EngineInt32EngineComplex64EngineInt64EngineindexMaskedInt16EngineMaskedInt32EngineMaskedInt64EngineMaskedFloat64EngineMaskedFloat32EngineInt16EngineMaskedUInt8EngineUInt8EngineFloat32EngineFloat64EngineMaskedBoolEngineIndexEngineUInt32EngineUInt64EngineMaskedComplex64Engine
+BoolEngineComplex128EngineTimedeltaEngineBaseMultiIndexCodesEngineObjectEngineDatetimeEnginenp_datetimestrptime	fields
+timedeltas
+parsing
+timestampsbase	timezones	period
+nattype	dtypes	ccalendar
+conversion	tslibs	YearBeginMicroSemiMonthOffsetTick
+MonthBegin	EasterNanoBDay	Minute
+CBMonthEnd	Second	BMonthEnd
+BYearBeginMonthOffsetCustomBusinessHourDayQuarterBeginCustomBusinessDayBYearEndBQuarterEnd
+BaseOffsetLastWeekOfMonthBQuarterBegin_CustomBusinessMonthBusinessHourQuarterOffsetSemiMonthBeginCustomBusinessMonthBeginRelativeDeltaOffset	FY5253SingleConstructorOffset
+OffsetMetaCustomBusinessMonthEndWeekOfMonthMixin
+DateOffsetBusinessMonthEnd
+offsetsWeekOfMonth
+YearEndBusinessMixinBusinessMonthBeginCDayFY5253MixinMonthEndCBMonthBeginFY5253QuarterSemiMonthEnd
+QuarterEndApplyTypeError
+YearOffsetWeekBMonthBeginHourMilliBusinessDayFloat32FactorizerUInt8FactorizerUInt16HashTableComplex64FactorizerUInt8HashTableStringHashTable
+Int8VectorUInt32FactorizerUInt64HashTableFloat64FactorizerComplex128HashTableInt32HashTableUInt16Factorizer	HashTableUInt32HashTableInt64VectorInt64HashTableInt32VectorPyObjectHashTableInt8FactorizerObjectFactorizerUInt16Vector	hashtable
+FactorizerComplex64VectorInt64FactorizerComplex64HashTableStringVector	VectorInt8HashTableIntpHashTableComplex128FactorizerInt16VectorInt16HashTableInt16FactorizerFloat64VectorUInt64VectorFloat32VectorUInt8VectorUInt64FactorizerFloat64HashTableFloat32HashTableUInt32VectorComplex128VectorObjectVectorInt32Factorizer
+vectorizedtzconversion
+writersscipy_fpumode_test_ccallback_ccallback_c_libaggregationsindexers	window_test_deprecation_defmessagestream_test_deprecation_call_vq
+_hierarchy_optimal_leaf_ordering
+cluster
+_uarray
+_uarrayfftpypocketfft
+_pocketfft
+fftpackconvolve	_quadpack_test_multivariate_odepack_test_odeint_banded_dop	_lsoda	integrate_vode_test_fortranio_mio5_utils_streams
+_mio_utils	matlab	_ni_label
+_cytest
+ndimage	_ctest	_nd_image_bspl_fitpackdfitpack_rbfinterp_pythran_rgi_cythoninterpnd	_ppolyinterpolate	_fblascython_blascython_lapack_matfuncs_expm_matfuncs_sqrtm_triu_cythonized_array_utils_decomp_lu_cython_solve_toeplitz_decomp_update_flapack_flinalg_interpolative	linalg
+_lbfgsb
+_moduleTNC	_zeros	_slsqp_bglu_dense	__nnls	_minpack2
+_direct_minpack
+_cobyla_group_columns_lsapoptimizegivens_elimination_lsq_highs_wrapper_highs_constants	_highs	_trlib	_trlib	_zeroscython_optimize_csparsetools_sparsetools	sparse	linalg	_eigen
+_arpack	arpack_superlu
+_dsolve
+_iterative
+_isolve	_dpropack	_zpropack	_cpropack_propack	_spropack
+_traversal	_matching_flow_min_spanning_tree	_tools_reordering_shortest_path
+csgraph_distance_pybind_ckdtree_distance_wrap
+spatial	__odrpackodr_max_len_seq_inner	_sigtools	_spectral
+_spline_sosfilt_upfirdn_apply	signal_peak_finding_utils	_qhull_voronoi
+_hausdorff_ellip_harm_2_test_internal_ufuncs_cxx_comb
+_ufuncscython_special_specfun
+special_statlib	_stats
+_qmc_cy_mvn
+_biasedurn_stats_pythran	_sobolstats	nct_ufuncinvgauss_ufunc
+ncx2_ufunchypergeom_ufuncskewnorm_ufunc	ncf_ufuncnbinom_ufuncbinom_ufunc
+beta_ufunc	_boost	_rcontrcont
+_unuranunuran_wrapper	levyst_levy_stable	_rotation	transformstatsmodels_smoothers_lowess	linbinnonparametric_qn	robust_innovationstsa_exponential_smoothersholtwinters_ets_smoothexponential_smoothing_hamilton_filter_kim_smootherregime_switching_arma_innovationsinnovations_cfa_simulation_smoother_simulation_smoother_initialization_kalman_smoother_kalman_filter_representation
+statespace_conventional_inversions_univariate_diffuse_univariate_filters_conventional
+_classical_alternative
+_smoothers	_tools_univariate_diffuse_univariate_stlstldistutilscoredir_utilcmdarchive_utildebug	extensionlog	sysconfig	text_filebcppcompilerdep_util
+py38compat_msvccompiler
+py35compatdist	file_util
+versionspawnmsvc9compiler
+py37compat	config	uploadbdist_wininst
+build_clibinstall_dataclean
+installinstall_scriptsinstall_egg_info	bdist_msi
+commandbuild_scriptsinstall_libregisterbuild_py	bdist_rpmbuildsdist	build_extcheckbdist
+bdist_dumb	config__main__install_headerstyping_extensions	distro
+_vendorsixidnadatacodecpip	intrangesidna	compatcorepackage_databoxbarpanel
+measure	_stacktable_inspect_emoji_codesabcscopetextprotocoltabulate	prettycellsprogressreprlive_render_windows
+segment	status_log_render	uts46data	styled_cell_widthshighlighter	_palettesdefault_styles_pick	region	_timerjson
+containerslivecolor_triplet
+jupyter
+columns
+logging	markup	prompt
+palette	themes_loop	screen__main__tree_wrap
+control
+console	traceback
+spinner_emoji_replacepagertheme	constrain
+padding	errors
+file_proxyrich	layout	_spinnersansi
+_lru_cachefilesizealignterminal_theme	syntaxprogress_bardiagnosecolorstylerule	_ratioemoji
+_parser_retomlibuildcolorlogdirtoolsmetawrapperscheckenvbuild	pep517	compat_in_process
+in_process__main__
+certificoresbcsgroupprober
+gb2312freq
+jisfreqenumsgb2312prober	euckrfreq	jpcntxlangbulgarianmodelmbcharsetprober
+versionhebrewprobercp949proberlatin1prober	mbcssmeuctwprobercharsetgroupprober
+chardetlangrussianmodel	escprober
+_extension
+big5proberlanghungarianmodellangturkishmodellanggreekmodelsbcharsetprobereucjpprobercharsetproberlangthaimodelbig5freq	euctwfreqescsmmbcsgroupprobereuckrprobercodingstatemachineuniversaldetector
+utf8prober
+sjisprober	compatlanghebrewmodel
+chardetectcli	languageschardistributionmetadatalocatorsutilindexwheeldatabase
+markers	resources
+versionmetadata
+distlibmanifest	compat
+exceptions_versionfallback
+msgpackext_collections
+exceptionsresponse	fields
+connectionpoolmanagerconnectionpool_versionfilepost
+request
+urllib3ssl_retryresponsessltransport
+timeoutwaitproxyssl_match_hostnamequeue
+connectionurl
+requestutilntlmpool_appengine_environsocks
+contribsecuretransport	appengine	pyopensslbindings	low_level_securetransportsixpackagesmakefile	backportsansiansitowin32
+wintermwin32
+initialisecolorama
+_tokenizer	_ihatexml_inputstream	_utils	constants
+serializerhtml5parserhtml5lib_basepy_trie	sanitizerlintalphabeticalattributes
+whitespaceoptionaltagsinject_meta_charsetbase
+filtersdom	genshi
+etree_lxmletreebasetreewalkerssax	genshitreeadaptersdom
+etree_lxmletreebasetreebuildersbar
+counter	colors
+spinnerprogress__main__	plugin
+cmdline	sphinxext	filtertoken
+consoleregexopt	formatterutilstyle
+scannermodeline
+scriptslexer	unistringpygments_mapping	python	lexers	styles
+filtershtml	bbcodegroffimgrtflatex_mappingothersvgterminalircterminal256
+formatterspangomarkupcertsadapters
+exceptions_internal_utils
+cookiessessionsstatus_codespackageshelputilshooks	models__version__authapirequests	compat
+structures_asyncioretrynap
+tornadowebwait	_utilsbefore_sleepafterstop	beforetenacity
+specifierstagsrequirements
+_musllinux_structures	__about__
+markersutils
+version
+_manylinux	packaging	common
+exceptions
+unicode
+testingutil
+helpers
+actions
+results	pyparsingcore
+diagram	reporters	providers	resolvers
+resolvelib
+structscollections_abc	compat	serialize
+heuristics
+wrapper_cmd
+controllerfilewrapper
+adaptercachecachecontrol	compatredis_cache
+file_cache	caches__main__unix
+windows
+versionmacosapiplatformdirs
+androidtestsx_user_defined	labelsmklabelswebencodings
+py31compatpkg_resources	pyproject	build_envself_outdated_checkmainconfigurationwheel_buildercache	_internal
+cmdoptionsprogress_barsbase_commandspinnersstatus_codes	parsermain_parserreq_commandmainautocompletionclicommand_contextreq_trackerreq_filereq_installconstructors
+req_setreq_uninstallreqversioncontrolgit	mercurial
+subversion	bazaarvcs
+sources	collectorpackage_finderindextemp_dirglibc
+virtualenvsetuptools_build	filetypes_logdirect_url_helpersinject_securetransportdistutils_argscompatibility_tagsutils
+subprocessentrypoints	packagingdatetime
+appdirsegg_linkwheel
+loggingdeprecation	modelsencoding	unpackingurls	hashesmisc
+filesystem	compatselection_prefstarget_pythonsearch_scope	schemelinkformat_controlindex	candidatewheel
+direct_url	modelsdownloadutilsauth
+lazy_wheel	xmlrpc
+sessioncache
+networkdownloaddebug
+completionshowlisthelpindexwheel	searchcheck	uninstall
+installconfigurationhashcache	freezecommandspkg_resources
+exceptionsbase
+_sysconfig
+_distutilsbase	locationscheck
+prepare	freeze
+operationswheelwheel_editablemetadata_editablemetadatametadata_legacywheel_legacybuildwheeleditable_legacy	legacy
+installmetadata
+resolutionresolver	legacyresolverreporterproviderrequirementsfound_candidates
+candidatesbase
+factory
+resolvelibbasewheelsdistbasedistributionsoverride_distutils_hack__main__util
+pkginfomacosx_libfilemetadatabdist_wheel	wheelfilewheel	unpackpack
+convertclivendored
+_typingtags	packaging	installed	locals	macosxfreetype_camera_vidcapture	fasteventsndarray_camera_opencv
+sysfont
+version
+pkgdatamidi	ftfont	camera	surfarray_sdl2
+draw_py
+touch_test
+cursors__main__	pygamemixer_music_tagsimageext_test
+scrap_test
+video_test	sprite	docs_testthreads_test	colordictkey_testimageext_tagsjoystick_testsndarray_tagscontroller_testlocals_test	time_test	base_testsprite_testcursors_testmixer_music_test__main__	midi_testsurfarray_testftfont_test	font_test
+image_tagssysfont_testsndarray_testsurflock_test
+mixer_testpixelcopy_testpixelarray_testftfont_tagsrwobject_testsurfarray_tags
+mouse_testdisplay_test	math_test
+mixer_tagsfreetype_tags	rect_testfreetype_testgfxdraw_test
+scrap_tagstestsversion_testcamera_testimage__save_gl_surface_test	blit_testpng	endian
+test_utilsarrinterbuftools	async_sub	run_teststest_runnertest_machinery	draw_test	mask_test
+color_test
+event_test
+image_testsurface_test	all_okfake_2_testfake_3_testfake_4_testfake_5_testfake_6_testzero_tests_test%"no_assertions__ret_code_of_1__test
+excludefake_2_testmagic_tag_testinvisible_tag_test
+timeout
+sleep_testconstants_testfake_2_test	failures1fake_2_testfake_3_testfake_4_test
+everything
+sleep_testfake_2_testmagic_tag_testincomplete_todo_test
+incompletefake_2_testfake_3_testrun_tests__testsprint_stderrfake_2_testfake_3_testfake_4_testprint_stdoutfake_2_testfake_3_testfake_4_testinfinite_loopfake_1_testfake_2_testincomplete_todofake_2_testfake_3_testrun_tests__testtransform_testbufferproxy_test
+threadsgridmaskmidichimpfontysoundstarsvideo	aliens	camera	glcube	liquid	moveit	scroll	vgrade
+cursors
+playmusexamplesaacirclejoystick	arraydemo	dropevent	eventlist	scaletest	textinput
+blend_fill
+pixelarray
+testspriteblit_blendsfont_vieweraudiocaptureresizing_newsetmodescalefreetype_miscgo_over_theresprite_texturemusic_drop_fadescrap_clipboardsound_array_demosheadless_no_windows_needed__pyinstallerhook-pygamecolor	constantsdrawmixer_music
+gfxdrawsurflockimage
+controllermixersdl2audiovideotouch_sdl2rwobjectscrap
+surface
+displayimageext	newbufferevent
+_spritejoystickmaskmixer	pixelcopyrect	transform	pygamefontpypmbufferproxytimekeybase
+_camera	_freetype
+pixelarraymousemath	serpientepatherrorpytoolsnosecore
+multiarraynumpyquery	modelsdbmailcoreforms	modelsformsformsetsbase
+genericviews	django	pytestmark
+structures
+_pytestcopy	behave	struct
+alembicStringIO	cStringIO
+check_post	landscapeanboxapt_newsv1current_newsfixcvev1planusnv1planserviceclienthttp
+serpiente2
+serpiente3act-3act-3patherrorpytoolsnosecore
+multiarraynumpyquery	modelsdbmailcoreforms	modelsformsformsetsbase
+genericviews	django	pytestmark
+structures
+_pytestcopy	behave	struct
+alembicStringIO	cStringIO
+check_post
+serpiente2Trabajo grupopatherrorpytoolsnosecore
+multiarraynumpyquery	modelsdbmailcoreforms	modelsformsformsetsbase
+genericviews	django	pytestmark
+structures
+_pytestcopy	behave	struct
+alembicStringIO	cStringIO
+check_posthgext3rd	absorb
+schemesgraphlogfix	notify
+fastexportsqlitestoreuncommitphabricatorblackbox	sparsefetchlogtoprocessmq
+keywordshow
+extdiffpurgefactotum	relinkhgk	win32mbcsgpgamend	win32textaclbookflowchildren
+transplanthistedit	rebaseeolsharebeautifygraphpagerbugzilla	automv	closeheadhgextreleasenotes	patchbombstrip
+journal	censorcommitextras
+githelpclonebundles	recordsplitchurnremotenames	blobstorewireprotolfsserver
+pointerlfs
+wrappernarrowwirepeernarrowtemplates
+narrowreponarrowcommandsnarrowdirstatenarrowbundle2	narrow
+convcmd	common
+filemapcvspsgitdarcshgp4cvs
+gnuarch	transportmonotonebzr
+subversion
+convertchangeset_publishedreject_merge_commitsenforce_draft_commitschangeset_obsoletedreject_new_heads
+hooklibZeroconfzeroconfwatchmanclientstate	fsmonitorloadcapabilities	pybserencoding
+pywatchman	compat	highlight	highlight	lfutilproto
+localstore	overrides	wirestore
+lfcommandsstorefactory	basestore	reposetupremotestore
+largefiles	revmapprotocol
+contexterrorcommands	formatterfastannotate
+supportsqlindexapi	commonindexapibundlepartsfileindexapiinfinitepushstorehistorypackremotefilectxshallowbundlefileserverclientremotefilelogshallowrepometadatastore	constantsbasepackconnectionpooldatapackshallowverifiershallowstore	basestorecontentstoreremotefilelogserverdebugcommandsshallowutilremotefilelog	repack
+sshpeertemplateutilhttppeerui
+minirst
+bundlerepourllibcompat	revsettagmergeloggingutilsimplemergestate
+namespaces
+extensions__version__progress	sparsestatichttprepotransaction
+obsutilmail	registrarwin32archivaldirstatemap	worker	mergeutil	repocache
+scmwindowspathutilbundlecaches
+sslutilrepoviewancestor	configvfs	cacheutilpatchtemplatefuncs	commitdebugcommands	profiling
+windowsdiffutiltags	discoverywireprotov1peermdiff	revlog	chgserverutilminifileset	filemerge
+crecord	mercurial
+cmdutilstripmatchhttpconnectionmerge	unionrepowireprototypes	shelve
+mergestatewireprotoserverstatprofstore
+subrepo	exthelper__modulepolicy__nodetemplatefilters	verifydispatch	changelog
+templatekwlock	repairi18n
+txnutilstackhook	dagparsersubrepoutil
+revsetlang	formatterstreamclonedirstatesmartsetrewriteutil	rcutil	localrepoerrormetadatapycompatlsprofcalltree	templaterwireprotoframingscmposixdagop
+narrowspecdestutil	server
+fileloghgencoding
+filesetmanifestgraphmod	copiespvec
+scmutil	bookmarks
+bundle2	fancyopts	lsprofdirstateguardchangegroup	branchmapposix
+logcmdutilobsoletegrep
+upgradelogexchange	policyexchangehelpfilesetlangconfigitems
+hbisect
+similarsetdiscoverycommands
+linelogtreediscovery
+pushkeyrequirementscommandservercolor
+diffhelper	parserwireprotov1serverurl	phases
+context	keepalivecextosutilbuild	mpatch	osutil
+bdiffbuildbdiffmpatchbuildcffi	base85
+parsers	mpatch	osutilbdiff
+charencodepurehgwebdir_mod	commonwebcommands
+wsgicgiwsgiheaders
+webutil
+request	serverhgweb	hgweb_moddateutilresourceutil	memorytop
+urlutilstorageutil
+stringutilcborutilrepoviewutilprocutilcompressionhashutilutils	revlog
+storage
+testinghelptext	internals	defaultrc	templatesrawrssatomcoaljsonpaper	gitweb	static
+spartanmonoblueutildirstate
+repository
+interfaces
+selectors2
+thirdparty
+validators	_funcs
+exceptions_make
+filters
+_compat
+converters
+_configattrzopero
+exceptionsregistry_flatten	interface	advicedocument
+interfaces	verify
+adapter
+_compat	interfacedeclarationssidedataconcurrency_checker
+nodemap	deltasflagutil
+rewrite	constantsrandomaccessfile	docketrevlogv0revlogutils	timestamp	docketv2dirstateutils
+actions	engineupgrade_utilsdemandimportpy3demandimportpy2
+tracinghgdemandimporthgext	fsmonitorbser
+pywatchmanzstd	mercurial	base85
+parsers	mpatch	osutilbdiffcext	sha1dc
+thirdpartyzope!_zope_interface_coptimizations	interfaceets
+serpiente2	examen
+ejercicio1
+ejercicio2
+ejercicio3
+ejercicio4
+ejercicio1
+ejercicio1

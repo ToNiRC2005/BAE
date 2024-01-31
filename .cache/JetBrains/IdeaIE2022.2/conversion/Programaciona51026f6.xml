@@ -1,0 +1,12 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="scala-facets-to-sdks" />
+  </applied-converters>
+  <project-files>
+    <f p="./.idea/modules.xml" t="1704916904" />
+    <f p="./.idea/misc.xml" t="1704916837" />
+    <f p="./.idea/workspace.xml" t="1704917195" />
+    <f p="./../SumaN/SumaN.iml" t="1704916953" />
+  </project-files>
+</conversion>

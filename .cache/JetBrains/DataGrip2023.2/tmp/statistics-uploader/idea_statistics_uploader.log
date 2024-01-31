@@ -1,0 +1,14 @@
+31/10 16:50:15  INFO com.intellij.internal.statistic.uploader - Process started with '--ide-token /home/tarde/.cache/JetBrains/DataGrip2023.2/token --recorders FUS --device-fus 13092331c69032f-06f8-4dcb-9f80-a84131d6355b --bucket-fus 248 --machine-fus 873b343a8d4cfea5a4ca9a9bf49b0620f57abfc8ec8e60d295629075edbf2d88 --id-revision-fus 0 --files-fus /home/tarde/.cache/JetBrains/DataGrip2023.2/event-log-data/logs/FUS/e025-48b0-a08a-113d54b57bd3-232.10203.8-release.log --escape-fus true --url https://resources.jetbrains.com/storage/fus/config/v4/%s/%s.json --product DB --product-version 2023.2.3 --user-agent DataGrip/232.10203.8 --extra-headers '
+31/10 16:50:15  INFO com.intellij.internal.statistic.uploader - Classpath:/snap/datagrip/180/lib/util-8.jar:/snap/datagrip/180/lib/annotations-java5.jar:/snap/datagrip/180/lib/lib-client.jar:/snap/datagrip/180/lib/stats.jar
+31/10 16:50:15  INFO com.intellij.internal.statistic.uploader.events - 1698771015252 STARTED ALL
+31/10 16:50:15  INFO com.intellij.internal.statistic.uploader - IDE token file: /home/tarde/.cache/JetBrains/DataGrip2023.2/token
+31/10 16:50:15  INFO com.intellij.internal.statistic.uploader - [FUS] Start uploading...
+31/10 16:50:15  INFO com.intellij.internal.statistic.uploader - [FUS] {product:DB, productVersion:2023.2.3, userAgent:DataGrip/232.10203.8(External), url: https://resources.jetbrains.com/storage/fus/config/v4/%s/%s.json, internal:false, isTest:false}
+31/10 16:50:15  INFO com.intellij.internal.statistic.uploader - [FUS] {recorder:FUS, files:/home/tarde/.cache/JetBrains/DataGrip2023.2/event-log-data/logs/FUS/e025-48b0-a08a-113d54b57bd3-232.10203.8-release.log}
+31/10 16:50:15  INFO com.intellij.internal.statistic.uploader - [FUS] {device:13092331c69032f-06f8-4dcb-9f80-a84131d6355b, bucket:248}
+31/10 16:50:16 FINER com.intellij.internal.statistic.uploader - e025-48b0-a08a-113d54b57bd3-232.10203.8-release.log -> {"Encrypted":false,"FailedPutCount":0,"RequestResponses":[{"RecordId":"t6R0sH3sfBfOgRb/GPbEODwzV2TacWVlSIUM187VfeOWuU2DLm7Y5dsC7Jb+opamt+tZA8ovS8mV6OsCgsnY4g7qvg4GG1Pf1+Rd5SRV120QwIDLmKgIKsFJHM8dzyBzk8bMgUCjZX3wLFzyj9G9VinpDU/R3GRZZyRRlJH0BWw/U/oCqU+wLftWjpwCL5oHd2EVFfwsA8ipLdbl+pT2SOkfX3GYW0qN"}]}
+31/10 16:50:16 FINER com.intellij.internal.statistic.uploader - Removed sent log: e025-48b0-a08a-113d54b57bd3-232.10203.8-release.log
+31/10 16:50:16  INFO com.intellij.internal.statistic.uploader.events - 1698771016432 SEND FUS 1 0 1 [L2hvbWUvdGFyZGUvLmNhY2hlL0pldEJyYWlucy9EYXRhR3JpcDIwMjMuMi9ldmVudC1sb2ctZGF0YS9sb2dzL0ZVUy9lMDI1LTQ4YjAtYTA4YS0xMTNkNTRiNTdiZDMtMjMyLjEwMjAzLjgtcmVsZWFzZS5sb2c=] []
+31/10 16:50:16  INFO com.intellij.internal.statistic.uploader.events - 1698771016438 FINISHED FUS
+31/10 16:50:16 FINER com.intellij.internal.statistic.uploader - [FUS] Uploading finished with SEND
+31/10 16:50:16 FINER com.intellij.internal.statistic.uploader - [FUS] Uploaded 1 files.

@@ -1,0 +1,87 @@
+{
+  "appInfo" : {
+    "build" : "232.9559.58",
+    "buildDate" : "2023-08-22T16:17:14.437Z[UTC]",
+    "productCode" : "PY",
+    "generated" : "2023-09-27T18:42:34.66414992Z",
+    "os" : "Linux 6.2.0-33-generic",
+    "runtime" : "JetBrains s.r.o. 17.0.8 17.0.8+7-b1000.8"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 11,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "pythonProject",
+    "times" : {
+      "scanningIds" : [ ],
+      "contentLoadingVisibleTime" : 1295084,
+      "retrievingChangedDuringIndexingFilesTime" : 1419635,
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 272395,
+      "updatingStart" : "2023-09-27T18:42:34.629144509Z",
+      "updatingEnd" : "2023-09-27T18:42:34.6637109Z",
+      "totalWallTimeWithPauses" : 34555711,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "dumbModeStart" : "2023-09-27T18:42:34.629144509Z",
+      "dumbWallTimeWithPauses" : 34555711,
+      "dumbWallTimeWithoutPauses" : 34555711,
+      "totalWallTimeWithoutPauses" : 34555711
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 107,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 107
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "UNKNOWN",
+      "partOfTotalProcessingTime" : {
+        "part" : 177442406,
+        "total" : 177442406
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 11895633,
+        "total" : 11895633
+      },
+      "totalNumberOfFiles" : 107,
+      "totalFilesSize" : 0,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 0,
+        "totalCpuTime" : 177442406
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 107,
+        "totalFilesSize" : 0,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 177442406,
+          "total" : 177442406
+        }
+      } ]
+    } ],
+    "totalStatsPerBaseLanguage" : [ ],
+    "totalStatsPerIndexer" : [ ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 107,
+      "retrievingTime" : 1419635
+    },
+    "fileProviderStatistics" : [ {
+      "providerName" : "Refreshed files",
+      "totalNumberOfIndexedFiles" : 107,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 19318261,
+      "contentLoadingVisibleTime" : 1295084,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 272395
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 0.10887059883532012
+  }
+}

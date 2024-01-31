@@ -1,0 +1,16 @@
+<project version="4">
+  <component name="PermissionStore">
+    <excludedFiles>
+      <Path>$PROJECT_DIR$/.idea</Path>
+    </excludedFiles>
+    <fileAccess>Readonly</fileAccess>
+    <terminalAccess>Readonly</terminalAccess>
+    <runAccess>Readonly</runAccess>
+    <toolWindowAccess>Disabled</toolWindowAccess>
+  </component>
+  <component name="ProcessedFilesStorage">
+    <timestamps>
+      <entry key="7dcd9f474de28ffb60a8eb82307c6f2d" value="1704914782605" />
+    </timestamps>
+  </component>
+</project>

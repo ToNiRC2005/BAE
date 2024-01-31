@@ -1,0 +1,149 @@
+2024-01-15 15:26:32,451 [     13]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2024-01-15 15:26:32,471 [     33]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 4 ms
+2024-01-15 15:26:32,479 [     41]   INFO - #c.i.p.i.b.AppStarter - IDE: DataGrip (build #DB-233.13135.68, Thu, 14 Dec 2023 21:17:00 GMT)
+2024-01-15 15:26:32,479 [     41]   INFO - #c.i.p.i.b.AppStarter - OS: Linux (6.5.0-14-generic)
+2024-01-15 15:26:32,480 [     42]   INFO - #c.i.p.i.b.AppStarter - JRE: 17.0.9+7-b1087.9, amd64 (JetBrains s.r.o.)
+2024-01-15 15:26:32,480 [     42]   INFO - #c.i.p.i.b.AppStarter - JVM: 17.0.9+7-b1087.9 (OpenJDK 64-Bit Server VM)
+2024-01-15 15:26:32,481 [     43]   INFO - #c.i.p.i.b.AppStarter - PID: 12300
+2024-01-15 15:26:32,481 [     43]   INFO - #c.i.p.i.b.AppStarter - desktop: ubuntu:GNOME
+2024-01-15 15:26:32,482 [     44]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2024-01-15 15:26:32,482 [     44]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE: 10485760
+2024-01-15 15:26:32,482 [     44]   INFO - #c.i.p.i.b.AppStarter - JVM options: [-XX:ErrorFile=/home/tarde/java_error_in_datagrip_%p.log, -XX:HeapDumpPath=/home/tarde/java_error_in_datagrip_.hprof, -Xms256m, -Xmx750m, -XX:ReservedCodeCacheSize=512m, -XX:+UseG1GC, -XX:SoftRefLRUPolicyMSPerMB=50, -XX:CICompilerCount=2, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dsun.tools.attach.tmp.only=true, -Dawt.lock.fair=true, -Djb.vmOptionsFile=/snap/datagrip/186/bin/datagrip64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=DataGrip2023.3, -Djna.boot.library.path=/snap/datagrip/186/lib/jna/amd64, -Dpty4j.preferred.native.folder=/snap/datagrip/186/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Didea.platform.prefix=DataGrip, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2024-01-15 15:26:32,482 [     44]   INFO - #c.i.u.i.PageCacheUtils - 	Direct memory to use, max: 765460480
+2024-01-15 15:26:32,483 [     45]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular + lock-free (LOCK_FREE_PAGE_CACHE_ENABLED:true)
+2024-01-15 15:26:32,484 [     46]   INFO - #c.i.p.i.b.AppStarter - args: 
+2024-01-15 15:26:32,484 [     46]   INFO - #c.i.u.i.PageCacheUtils - 	NEW_PAGE_CACHE_MEMORY_FRACTION: 0.20000000298023224
+2024-01-15 15:26:32,484 [     46]   INFO - #c.i.p.i.b.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2024-01-15 15:26:32,485 [     47]   INFO - #c.i.u.i.PageCacheUtils - 	Regular FilePageCache: 503316478 bytes
+2024-01-15 15:26:32,485 [     47]   INFO - #c.i.p.i.b.AppStarter - boot library path: /snap/datagrip/186/jbr/lib
+2024-01-15 15:26:32,486 [     48]   INFO - #c.i.u.i.PageCacheUtils - 	New     FilePageCache: 125829122 bytes (+ up to 10.0% overflow)
+2024-01-15 15:26:32,486 [     48]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 0 bytes
+2024-01-15 15:26:32,495 [     57]   INFO - #c.i.p.i.b.AppStarter - locale=es_ES JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/home/tarde/.config/JetBrains/DataGrip2023.3
+    idea.system.path=/home/tarde/.cache/JetBrains/DataGrip2023.3
+    idea.plugins.path=/home/tarde/.local/share/JetBrains/DataGrip2023.3 -> ?
+    idea.log.path=/home/tarde/.cache/JetBrains/DataGrip2023.3/log
+2024-01-15 15:26:32,498 [     60]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@7a5db71d[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@1b91b0c8
+2024-01-15 15:26:32,837 [    399]   INFO - #c.i.p.i.b.AppStarter - Importing configs to /home/tarde/.config/JetBrains/DataGrip2023.3
+2024-01-15 15:26:32,838 [    400]   INFO - #c.i.p.i.b.AppStarter - Custom migration option: null
+2024-01-15 15:26:32,841 [    403]   INFO - #c.i.p.i.b.AppStarter - Custom ConfigImportSettings instance: null
+2024-01-15 15:26:32,848 [    410]   INFO - #c.i.p.i.b.AppStarter - Importing configs: oldConfigDir=[/home/tarde/.config/JetBrains/DataGrip2023.2], newConfigDir=[/home/tarde/.config/JetBrains/DataGrip2023.3], oldIdeHome=[null], oldPluginsDir=[/home/tarde/.local/share/JetBrains/DataGrip2023.2], newPluginsDir=[/home/tarde/.local/share/JetBrains/DataGrip2023.3]
+2024-01-15 15:26:32,939 [    501]   WARN - #c.i.i.p.PluginManager - <resource-bundle>messages.DataGripBundle</resource-bundle> tag is found in an xml descriptor included into the platform part of the IDE but the platform part uses predefined bundles (e.g. ActionsBundle for actions) anyway; this tag must be replaced by a corresponding attribute in some inner tags (e.g. by 'resource-bundle' attribute in 'actions' tag)
+2024-01-15 15:26:33,053 [    615]   INFO - #c.i.p.i.b.AppStarter - The vmoptions file has changed, restarting...
+2024-01-15 15:26:33,058 [    620]   INFO - #c.i.u.Restarter - run restarter: [/snap/datagrip/186/bin/restarter, 12300, 1, /snap/datagrip/186/bin/datagrip.sh]
+2024-01-15 15:26:33,065 [    627]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
+2024-01-15 15:26:33,687 [      7]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2024-01-15 15:26:33,707 [     27]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2024-01-15 15:26:33,707 [     27]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE: 10485760
+2024-01-15 15:26:33,708 [     28]   INFO - #c.i.u.i.PageCacheUtils - 	Direct memory to use, max: 2126512128
+2024-01-15 15:26:33,708 [     28]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular + lock-free (LOCK_FREE_PAGE_CACHE_ENABLED:true)
+2024-01-15 15:26:33,709 [     29]   INFO - #c.i.u.i.PageCacheUtils - 	NEW_PAGE_CACHE_MEMORY_FRACTION: 0.20000000298023224
+2024-01-15 15:26:33,710 [     30]   INFO - #c.i.u.i.PageCacheUtils - 	Regular FilePageCache: 503316478 bytes
+2024-01-15 15:26:33,710 [     30]   INFO - #c.i.u.i.PageCacheUtils - 	New     FilePageCache: 125829122 bytes (+ up to 10.0% overflow)
+2024-01-15 15:26:33,710 [     30]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 17 ms
+2024-01-15 15:26:33,710 [     30]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2024-01-15 15:26:33,717 [     37]   INFO - #c.i.p.i.b.AppStarter - IDE: DataGrip (build #DB-233.13135.68, Thu, 14 Dec 2023 21:17:00 GMT)
+2024-01-15 15:26:33,718 [     38]   INFO - #c.i.p.i.b.AppStarter - OS: Linux (6.5.0-14-generic)
+2024-01-15 15:26:33,718 [     38]   INFO - #c.i.p.i.b.AppStarter - JRE: 17.0.9+7-b1087.9, amd64 (JetBrains s.r.o.)
+2024-01-15 15:26:33,719 [     39]   INFO - #c.i.p.i.b.AppStarter - JVM: 17.0.9+7-b1087.9 (OpenJDK 64-Bit Server VM)
+2024-01-15 15:26:33,719 [     39]   INFO - #c.i.p.i.b.AppStarter - PID: 12410
+2024-01-15 15:26:33,719 [     39]   INFO - #c.i.p.i.b.AppStarter - desktop: ubuntu:GNOME
+2024-01-15 15:26:33,720 [     40]   INFO - #c.i.p.i.b.AppStarter - JVM options: [-XX:ErrorFile=/home/tarde/java_error_in_datagrip_%p.log, -XX:HeapDumpPath=/home/tarde/java_error_in_datagrip_.hprof, -Xms256m, -Xmx750m, -XX:ReservedCodeCacheSize=512m, -XX:+UseG1GC, -XX:SoftRefLRUPolicyMSPerMB=50, -XX:CICompilerCount=2, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dsun.tools.attach.tmp.only=true, -Dawt.lock.fair=true, -Xmx2048m, -Djb.vmOptionsFile=/home/tarde/.config/JetBrains/DataGrip2023.3/datagrip64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=DataGrip2023.3, -Djna.boot.library.path=/snap/datagrip/186/lib/jna/amd64, -Dpty4j.preferred.native.folder=/snap/datagrip/186/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Didea.platform.prefix=DataGrip, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2024-01-15 15:26:33,722 [     42]   INFO - #c.i.p.i.b.AppStarter - args: 
+2024-01-15 15:26:33,722 [     42]   INFO - #c.i.p.i.b.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2024-01-15 15:26:33,723 [     43]   INFO - #c.i.p.i.b.AppStarter - boot library path: /snap/datagrip/186/jbr/lib
+2024-01-15 15:26:33,734 [     54]   INFO - #c.i.p.i.b.AppStarter - locale=es_ES JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/home/tarde/.config/JetBrains/DataGrip2023.3
+    idea.system.path=/home/tarde/.cache/JetBrains/DataGrip2023.3
+    idea.plugins.path=/home/tarde/.local/share/JetBrains/DataGrip2023.3 -> ?
+    idea.log.path=/home/tarde/.cache/JetBrains/DataGrip2023.3/log
+2024-01-15 15:26:33,738 [     58]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@3e3c66d6[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@65abeb1d
+2024-01-15 15:26:34,008 [    328]   INFO - #c.i.p.i.b.AppStarter - Importing configs to /home/tarde/.config/JetBrains/DataGrip2023.3
+2024-01-15 15:26:34,010 [    330]   INFO - #c.i.p.i.b.AppStarter - Custom migration option: properties intellij.first.ide.session intellij.config.imported.in.current.session
+2024-01-15 15:26:34,010 [    330]   INFO - #c.i.p.i.b.AppStarter - Enabling system properties after restart: [intellij.first.ide.session, intellij.config.imported.in.current.session]
+2024-01-15 15:26:34,106 [    426]   WARN - #c.i.i.p.PluginManager - <resource-bundle>messages.DataGripBundle</resource-bundle> tag is found in an xml descriptor included into the platform part of the IDE but the platform part uses predefined bundles (e.g. ActionsBundle for actions) anyway; this tag must be replaced by a corresponding attribute in some inner tags (e.g. by 'resource-bundle' attribute in 'actions' tag)
+2024-01-15 15:26:34,127 [    447]   INFO - #c.i.i.p.PluginManager - Module intellij.platform.images.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.kotlin.dev is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.groovy.dev is not enabled because dependency org.intellij.groovy is not available
+Module intellij.java.dev is not enabled because dependency com.intellij.java is not available
+Module intellij.diagram.properties is not enabled because dependency com.intellij.properties is not available
+Module intellij.diagram.java is not enabled because dependency com.intellij.java is not available
+Module intellij.searchEverywhereMl.semantics.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.searchEverywhereMl.semantics.java is not enabled because dependency com.intellij.java is not available
+Module intellij.searchEverywhereMl.ranking.yaml is not enabled because dependency org.jetbrains.plugins.yaml is not available
+Module intellij.searchEverywhereMl.typos is not enabled because dependency tanvd.grazi is not available
+Module intellij.vcs.git/newUiOnboarding is not enabled because dependency intellij.platform.ide.newUiOnboarding is not available
+2024-01-15 15:26:34,136 [    456]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Diagrams (233.13135.68), TextMate Bundles (233.13135.68), DataGrip Customization (233.13135.68), DataGrip Solarized Color Scheme (233.13135.68), Machine Learning Code Completion (233.13135.68), Data Editor Support Core (233.13135.68), Charts Support (233.13135.68), Database Tools and SQL (233.13135.68), Remote Development Server (233.13135.68), XPathView + XSLT (233.13135.68), Performance Testing (233.13135.68), Images (233.13135.68), Git (233.13135.68), Configuration Script (233.13135.68), DataGrip Help (233.13135.68), Settings Sync (233.13135.68), IntelliLang (233.13135.68), VibrantInk Color Scheme (233.13135.68), IDEA CORE (233.13135.68), Data Editor Support (233.13135.68), Machine Learning in Search Everywhere (233.13135.68), WarmNeon Color Scheme (233.13135.68), Async Profiler for IDE Performance Testing (233.13135.68), com.intellij.dev (233.13135.68)
+2024-01-15 15:26:34,203 [    523]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check enabled: first after 600000 ms, and each following 43200000 ms
+2024-01-15 15:26:34,203 [    523]   INFO - #c.i.d.i.DataGripProjectMigration - no projects in config folder
+2024-01-15 15:26:34,218 [    538]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2024-01-15 15:26:34,246 [    566]   INFO - #c.i.o.u.r.RegistryManager - Registry values changed by user: ide.experimental.ui = true, idea.plugins.compatible.build = 
+2024-01-15 15:26:34,270 [    590]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2024-01-15 15:26:34,279 [    599]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses 'fast' names enumerator (over mmapped file)
+2024-01-15 15:26:34,281 [    601]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses streamlined attributes storage (over mmapped file)
+2024-01-15 15:26:34,282 [    602]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content storage over new FilePageCache
+2024-01-15 15:26:34,283 [    603]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content hash storage over mmapped file
+2024-01-15 15:26:34,349 [    669]   INFO - #c.i.p.i.b.IdeStartupWizard - IDE startup isEnabled = false, IDEStartupKind = Control, IDEStartup = 2
+2024-01-15 15:26:34,432 [    752]   INFO - #c.i.i.RecentProjectsManager - Opening project from the recent projects, but .idea is missing. Open project as this is first time.
+2024-01-15 15:26:34,440 [    760]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/186/lib, version=233.13135.68, package=com.intellij.structuralsearch, isBundled=true)
+2024-01-15 15:26:34,450 [    770]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/186/lib, version=233.13135.68, package=com.intellij.structuralsearch, isBundled=true)
+2024-01-15 15:26:34,451 [    771]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "NetBeans 6.5" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/186/lib, version=233.13135.68, package=com.intellij.structuralsearch, isBundled=true)
+2024-01-15 15:26:34,451 [    771]   INFO - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=/snap/datagrip/186/lib, version=233.13135.68, package=com.intellij.structuralsearch, isBundled=true)
+2024-01-15 15:26:34,459 [    779]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2024-01-15 15:26:34,461 [    781]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2024-01-15 15:26:34,560 [    880]   INFO - #c.i.i.a.CreateLauncherScriptAction$ObsoleteScriptLookupTask - Input length = 1
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.intellij.ide.actions.CreateLauncherScriptAction$ObsoleteScriptLookupTask.lambda$appStarted$1(CreateLauncherScriptAction.java:94)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-01-15 15:26:34,565 [    885]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2024-01-15 15:26:34,603 [    923]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS: impl (expected) version=846656, 0 file records, 0 content blobs
+2024-01-15 15:26:34,605 [    925]   INFO - #c.i.p.i.m.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop
+2024-01-15 15:26:34,609 [    929]   INFO - #c.i.p.i.m.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar'
+2024-01-15 15:26:34,614 [    934]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS initialized: 340 ms, 0 failed attempts, 0 error(s) were recovered
+2024-01-15 15:26:34,614 [    934]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS scanned: file-by-name index was populated
+2024-01-15 15:26:34,636 [    956]   INFO - #c.i.h.u.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding...
+2024-01-15 15:26:34,636 [    956]   INFO - #c.i.h.u.LocalHistoryLog - FS has been rebuild, rebuilding local history...
+2024-01-15 15:26:34,637 [    957]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.psi.search.FilenameIndex initializer requests com.intellij.ide.plugins.PluginUtil instance
+2024-01-15 15:26:34,642 [    962]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /snap/datagrip/186/bin/fsnotifier
+2024-01-15 15:26:34,654 [    974]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2024-01-15 15:26:34,748 [   1068]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:IdIndex(v = 22),filetypes(v = 4096),Stubs(v = 46),XmlTagNames(v = 1),sql.types.count.index(v = 0),DomFileIndex(v = 0),html5.custom.attributes.index(v = 1),XmlNamespaces(v = 8),Trigram.Index(v = 4),FrameworkDetectionIndex(v = 65536),HashFragmentIndex(v = 19111503),FilenameIndex(v = 258),fileIncludes(v = 6),SchemaTypeInheritance(v = 2),sql.routine.index(v = 1),TodoIndex(v = 13),RelaxSymbolIndex(v = 0),XsltSymbolIndex(v = 0),json.file.root.values(v = 5)
+2024-01-15 15:26:34,753 [   1073]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2024-01-15 15:26:34,758 [   1078]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 122 ms. Initialized indexes: [FilenameIndex, Trigram.Index, DomFileIndex, XmlNamespaces, RelaxSymbolIndex, XmlTagNames, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, sql.types.count.index, IdIndex, FrameworkDetectionIndex, fileIncludes, TodoIndex, sql.routine.index, HashFragmentIndex, Stubs, filetypes].
+2024-01-15 15:26:34,771 [   1091]   INFO - #c.i.p.s.StubIndexImpl - Following stub indices will be built:dom.namespaceKey(v = 1),sql.table.shortName(v = 3),sql.names(v = 21),sql.column.name(v = 3),redis.dml.shortName(v = 3),dom.elementClass(v = 0)
+2024-01-15 15:26:34,772 [   1092]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 14 ms. Initialized stub indexes: {sql.names, redis.dml.shortName, sql.column.name, dom.elementClass, dom.namespaceKey, sql.table.shortName}.
+2024-01-15 15:26:35,166 [   1486]   INFO - #c.i.i.p.m.MarketplaceRequests - Error reading Marketplace file: com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (sun.nio.ch.ChannelInputStream); line: 1, column: 0] (file=/home/tarde/.cache/JetBrains/DataGrip2023.3/plugins/brokenPlugins.json URL=https://plugins.jetbrains.com/files/brokenPlugins.json)
+2024-01-15 15:26:35,167 [   1487]   INFO - #c.i.i.p.m.MarketplaceRequests - Can not get broken plugins file from Marketplace: No content to map due to end-of-input
+ at [Source: (sun.nio.ch.ChannelInputStream); line: 1, column: 0]
+2024-01-15 15:26:44,058 [  10378]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities from files
+2024-01-15 15:26:44,063 [  10383]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2024-01-15 15:26:44,290 [  10610]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2024-01-15 15:26:44,392 [  10712]   INFO - #c.i.i.s.DeviceIdManager - Generating new Device ID for 'MP'
+2024-01-15 15:26:44,393 [  10713]   INFO - #c.i.i.s.e.EventLogConfiguration - Generating new salt for MP
+2024-01-15 15:26:44,399 [  10719]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2024-01-15 15:26:44,415 [  10735]   INFO - #c.i.u.s.SvgCacheManager - SVG icon cache is closed
+2024-01-15 15:26:44,421 [  10741]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2024-01-15 15:26:44,424 [  10744]   INFO - #o.j.i.BuiltInServer - web server stopped
+2024-01-15 15:26:44,430 [  10750]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2024-01-15 15:26:44,438 [  10758]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2024-01-15 15:26:44,438 [  10758]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /home/tarde/.cache/JetBrains/DataGrip2023.3/index/rep.names
+2024-01-15 15:26:44,438 [  10758]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /home/tarde/.cache/JetBrains/DataGrip2023.3/index/rep.names
+2024-01-15 15:26:44,439 [  10759]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 9ms.
+2024-01-15 15:26:44,656 [  10976]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2024-01-15 15:26:44,659 [  10979]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 3ms.
+2024-01-15 15:26:44,659 [  10979]   INFO - #c.i.o.f.i.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms
+2024-01-15 15:26:44,672 [  10992]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

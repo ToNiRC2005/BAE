@@ -1,0 +1,21 @@
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - Process started with '--ide-token /home/tarde/.cache/JetBrains/DataGrip2023.3/token --recorders FUS;MP --device-fus 13092331c69032f-06f8-4dcb-9f80-a84131d6355b --bucket-fus 248 --machine-fus 873b343a8d4cfea5a4ca9a9bf49b0620f57abfc8ec8e60d295629075edbf2d88 --id-revision-fus 0 --files-fus /home/tarde/.cache/JetBrains/DataGrip2023.3/event-log-data/logs/FUS/ccae-4a61-9591-5205cf4053bc-233.13135.68-release.log --escape-fus true --device-mp 15012438182cd62-8b44-4869-b8ab-cb59f6686659 --bucket-mp 5 --machine-mp 9cb1009c7d91bd4d9bee65ed37afbbbf35c2127c337572004e725858038d500e --id-revision-mp 0 --files-mp  --escape-mp true --url https://resources.jetbrains.com/storage/fus/config/v4/%s/%s.json --product DB --product-version 2023.3.2 --baseline-version 233 --user-agent DataGrip/233.13135.68 --extra-headers '
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - Classpath:/snap/datagrip/186/lib/util-8.jar:/snap/datagrip/186/lib/annotations.jar:/snap/datagrip/186/lib/lib.jar:/snap/datagrip/186/lib/stats.jar
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader.events - 1705332404606 STARTED ALL
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - IDE token file: /home/tarde/.cache/JetBrains/DataGrip2023.3/token
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - [FUS] Start uploading...
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - [MP] Start uploading...
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - [FUS] {product:DB, productVersion:2023.3.2, userAgent:DataGrip/233.13135.68(External), url: https://resources.jetbrains.com/storage/fus/config/v4/%s/%s.json, internal:false, isTestConfig:false, isTestSendEndpoint:false}
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - [MP] {product:DB, productVersion:2023.3.2, userAgent:DataGrip/233.13135.68(External), url: https://resources.jetbrains.com/storage/fus/config/v4/%s/%s.json, internal:false, isTestConfig:false, isTestSendEndpoint:false}
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - [MP] {recorder:MP, files:}
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - [FUS] {recorder:FUS, files:/home/tarde/.cache/JetBrains/DataGrip2023.3/event-log-data/logs/FUS/ccae-4a61-9591-5205cf4053bc-233.13135.68-release.log}
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - [MP] {device:15012438182cd62-8b44-4869-b8ab-cb59f6686659, bucket:5}
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader - [FUS] {device:13092331c69032f-06f8-4dcb-9f80-a84131d6355b, bucket:248}
+15/01 15:26:44  INFO com.intellij.internal.statistic.uploader.events - 1705332404640 FINISHED MP NOTHING_TO_SEND
+15/01 15:26:44 FINER com.intellij.internal.statistic.uploader - [MP] Uploading finished with NOTHING_TO_SEND
+15/01 15:26:44 FINER com.intellij.internal.statistic.uploader - [MP] No files to send
+15/01 15:26:45 FINER com.intellij.internal.statistic.uploader - ccae-4a61-9591-5205cf4053bc-233.13135.68-release.log -> {"Encrypted":false,"FailedPutCount":0,"RequestResponses":[{"RecordId":"r1T6EQzQ/gKKHGEVBl+T7r34AjgOBqL1qc/qJio9W23Unrc2tFMq/saNMcRv7aNhAmEY1KvH1P2p8/53gcLnQWI91A1IXvbNuhvDzt4UWyjrWQOjoFP1C7CAXh5uVMTvosiFxhVPuGd21C3jGI8l/x07GZDvR7XiUTLmDPm2lFbI8WurDNvFF3QNeGZE4tPAhbQYGv6ztqhAP4lHtANT2MO7sWFvJdu8"}]}
+15/01 15:26:45 FINER com.intellij.internal.statistic.uploader - Removed sent log: ccae-4a61-9591-5205cf4053bc-233.13135.68-release.log
+15/01 15:26:45  INFO com.intellij.internal.statistic.uploader.events - 1705332405830 SEND FUS 1 0 1 [L2hvbWUvdGFyZGUvLmNhY2hlL0pldEJyYWlucy9EYXRhR3JpcDIwMjMuMy9ldmVudC1sb2ctZGF0YS9sb2dzL0ZVUy9jY2FlLTRhNjEtOTU5MS01MjA1Y2Y0MDUzYmMtMjMzLjEzMTM1LjY4LXJlbGVhc2UubG9n] []
+15/01 15:26:45  INFO com.intellij.internal.statistic.uploader.events - 1705332405836 FINISHED FUS
+15/01 15:26:45 FINER com.intellij.internal.statistic.uploader - [FUS] Uploading finished with SEND
+15/01 15:26:45 FINER com.intellij.internal.statistic.uploader - [FUS] Uploaded 1 files.

@@ -1,0 +1,5 @@
+============= 2024-01-15 15:26:33.066661859 UTC
+    0 [info ] args: ["/snap/datagrip/186/bin/restarter", "12300", "1", "/snap/datagrip/186/bin/datagrip.sh"]
+    0 [info ] CWD: Ok("/home/tarde")
+    0 [info ] waiting for 12300
+  400 [info ] exec-ing: ["/snap/datagrip/186/bin/datagrip.sh"]
